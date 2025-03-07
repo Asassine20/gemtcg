@@ -13,40 +13,51 @@ import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
+  title: 'GemTCG – Your Pokémon Trading Card Hub for Shopping, Learning, and More',
   ignoreTitleTemplate: true,
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
+  <img 
+  id="themeImage"
+  src="https://s7ub4m8kg7.ufs.sh/f/vSQesHp5YCfTV74wPKn8rT4UR81w7SifEYA3gn9apoqZIhX0" 
+  alt="GemTCG Hero Image" 
+  style={{ width: '50%', height: '25%', display: 'block', margin: '0 auto' }} 
+/>
+
 
   <Hero
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
+        text: 'Patreon',
+        href: 'https://www.patreon.com/c/GemTCG',
         target: '_blank',
-        icon: 'tabler:download',
+        icon: 'tabler:brand-patreon',
       },
-      { text: 'Learn more', href: '#features' },
+      {
+      text: 'YouTube',
+      href: 'https://www.youtube.com/@GemTCG', 
+      icon: 'tabler:brand-youtube', 
+    },
+    {
+      text: 'eBay',
+      href: 'https://www.ebay.com/str/kickznkardzstore', 
+      icon: 'tabler:pokeball', 
+    }
     ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden xl:inline">creating websites with</span>
-      <span class="text-accent dark:text-white highlight"> Astro 5.0</span> + Tailwind CSS
+      Unlock the Value of Your Cards with GemTCG
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 5.0
-        + Tailwind CSS.</span
-      >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-      Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages &
-      Blogs.
+        <span class="font-semibold">GemTCG</span> 
+        offers expert advice on reselling Pokémon cards, helping you turn your hobbie into a profitable venture. Explore my blogs, YouTube channel, and join our Patreon for insider tips, strategies, and a community dedicated to mastering the art of Pokémon card reselling.
+        </span>
     </Fragment>
   </Hero>
 
@@ -57,51 +68,52 @@ const metadata = {
   <!-- Features Widget *************** -->
 
   <Features
-    id="features"
-    tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022, 2023 and 2024."
-    items={[
-      {
-        title: 'Astro + Tailwind CSS Integration',
-        description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-        icon: 'tabler:brand-tailwind',
-      },
-      {
-        title: 'Ready-to-use Components',
-        description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-        icon: 'tabler:components',
-      },
-      {
-        title: 'Best Practices',
-        description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
-        icon: 'tabler:list-check',
-      },
-      {
-        title: 'Excellent Page Speed',
-        description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-        icon: 'tabler:rocket',
-      },
-      {
-        title: 'Search Engine Optimization (SEO)',
-        description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
-        icon: 'tabler:arrows-right-left',
-      },
-      {
-        title: 'Open to new ideas and contributions',
-        description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-        icon: 'tabler:bulb',
-      },
-    ]}
-  />
+  id="features"
+  tagline="Features"
+  title="What You Get with GemTCG"
+  subtitle="Unlock the full potential of your Pokémon card reselling journey. Get exclusive tips, expert advice, and tools to elevate your sales."
+  items={[
+    {
+      title: 'Expert Reselling Tips',
+      description:
+        'Learn the best strategies for buying, selling, and reselling Pokémon cards from experienced professionals.',
+      icon: 'tabler:bulb',
+    },
+    {
+      title: 'Exclusive Patreon Content',
+      description:
+        'Access detailed reselling guides, tutorials, and community discussions that will help you grow your Pokémon card business.',
+      icon: 'tabler:brand-patreon',
+    },
+    {
+      title: 'YouTube Tutorials',
+      description:
+        'Watch in-depth videos on how to source, price, and resell Pokémon cards effectively. Learn from real-life examples and case studies.',
+      icon: 'tabler:brand-youtube',
+    },
+    {
+      title: 'Pro Tips for Maximizing Profits',
+      description:
+        'Discover insider strategies to identify valuable cards, build profitable collections, and maximize your reselling profits.',
+      icon: 'tabler:rocket',
+    },
+    {
+      title: 'Reselling Community Support',
+      description:
+        'Join a community of like-minded resellers and share your experiences, challenges, and successes in our private groups.',
+      icon: 'tabler:users',
+    },
+    {
+      title: 'Stay Updated with Trends',
+      description:
+        'Get access to the latest Pokémon card market trends and updates so you can make informed decisions and stay ahead of the competition.',
+      icon: 'tabler:trending-up',
+    },
+  ]}
+/>
 
-  <!-- Content Widget **************** -->
+
+  <!-- 
 
   <Content
     isReversed
@@ -139,7 +151,6 @@ const metadata = {
     </Fragment>
   </Content>
 
-  <!-- Content Widget **************** -->
 
   <Content
     isAfterContent
@@ -176,7 +187,6 @@ const metadata = {
     </Fragment>
   </Content>
 
-  <!-- Content Widget **************** -->
 
   <Content
     isReversed
@@ -214,186 +224,207 @@ const metadata = {
     </Fragment>
   </Content>
 
-  <!-- Steps Widget ****************** -->
-
   <Steps
-    title="Get your dream website up and running in no time with AstroWind."
-    items={[
-      {
-        title: 'Step 1: <span class="font-medium">Download</span>',
-        description:
-          "Kickstart with GitHub! Either fork the AstroWind template or simply click 'Use this template'. Your canvas awaits, ready for your digital masterpiece. In just a few clicks, you've already set the foundation.",
-        icon: 'tabler:package',
-      },
-      {
-        title: 'Step 2: <span class="font-medium">Add content</span>',
-        description:
-          "Pour your vision into it. Add images, text, and all that jazz to breathe life into your digital space. Remember, it's the content that tells your story, so make it captivating.",
-        icon: 'tabler:letter-case',
-      },
-      {
-        title: 'Step 3: <span class="font-medium">Customize styles</span>',
-        description:
-          'Give it your personal touch. Tailor colors, fonts, and layouts until it feels just right. Your unique flair, amplified by AstroWind! Precision in design ensures a seamless user experience.',
-        icon: 'tabler:paint',
-      },
-      {
-        title: 'Ready!',
-        icon: 'tabler:check',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Steps image',
-    }}
-  />
+  title="Become a Successful Pokémon Card Reseller"
+  items={[
+    {
+      title: 'Step 1: <span class="font-medium">Learn the Market</span>',
+      description:
+        "Understand the Pokémon card market by researching trends, card values, and popular sets. Knowledge is power when it comes to reselling!",
+      icon: 'tabler:search',
+    },
+    {
+      title: 'Step 2: <span class="font-medium">Source Your Cards</span>',
+      description:
+        "Find reliable sources for purchasing Pokémon cards, whether through bulk buys, local events, or trusted online sellers. Ensure you’re buying at the right price.",
+      icon: 'tabler:shopping-cart',
+    },
+    {
+      title: 'Step 3: <span class="font-medium">List & Price Your Cards</span>',
+      description:
+        "Create compelling listings with high-quality images and accurate descriptions. Price your cards competitively based on market research and current demand.",
+      icon: 'tabler:tag',
+    },
+    {
+      title: 'Step 4: <span class="font-medium">Optimize Your Sales</span>',
+      description:
+        "Maximize visibility through platforms like eBay, TCGPlayer, or local marketplaces. Use social media to increase awareness and drive sales.",
+      icon: 'tabler:rocket',
+    },
+    {
+      title: 'Step 5: <span class="font-medium">Reinvest & Scale</span>',
+      description:
+        "Reinvest profits into new inventory, scale your efforts, and continuously refine your pricing strategies to stay competitive in the market.",
+      icon: 'tabler:cash',
+    },
+    {
+      title: 'Ready!',
+      icon: 'tabler:check',
+    },
+  ]}
+  image={{
+    src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
+    alt: 'Steps image',
+  }}
+/>
+-->
+
 
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    tagline="Components"
-    items={[
-      {
-        title: 'Headers',
-        description: "Ever tried driving without GPS? Boom! That's why websites need headers for direction.",
-        icon: 'flat-color-icons:template',
-      },
-      {
-        title: 'Heros',
-        description:
-          "Picture a superhero landing – epic, right? That's the job of a Hero section, making grand entrances!",
-        icon: 'flat-color-icons:gallery',
-      },
-      {
-        title: 'Features',
-        description:
-          'Where websites strut their stuff and show off superpowers. No holding back on the bragging rights here!',
-        icon: 'flat-color-icons:approval',
-      },
-      {
-        title: 'Content',
-        description:
-          "Dive into the meat and potatoes of a site; without it, you'd just be window shopping. Content is king.",
-        icon: 'flat-color-icons:document',
-      },
-      {
-        title: 'Call-to-Action',
-        description:
-          'That enthusiastic friend who\'s always urging, "Do it! Do it!"? Yeah, that\'s this button nudging you towards adventure.',
-        icon: 'flat-color-icons:advertising',
-      },
-      {
-        title: 'Pricing',
-        description: 'Behold the dessert menu of the website world. Tempting choices await, can you resist?',
-        icon: 'flat-color-icons:currency-exchange',
-      },
-      {
-        title: 'Testimonial',
-        description: 'Step into the gossip corner! Here, other visitors spill the beans and share the juicy details.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Contact',
-        description:
-          'Like a digital mailbox, but faster! Drop a line, ask a question, or send a virtual high-five. Ding! Message in.',
-        icon: 'flat-color-icons:business-contact',
-      },
-      {
-        title: 'Footers',
-        description: "The footer's like the credits of a movie but sprinkled with easter eggs. Time to hunt!",
-        icon: 'flat-color-icons:database',
-      },
-    ]}
-  >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Features2>
+  title="Essential Tools for Pokémon Card Reselling"
+  subtitle="Key aspects to consider when starting your Pokémon card reselling business."
+  tagline="Features"
+  items={[
+    {
+      title: 'Market Research',
+      description: 'Learn how to track Pokémon card prices, identify trends, and discover which cards are in high demand.',
+      icon: 'flat-color-icons:survey',
+    },
+    {
+      title: 'Pick a Niche',
+      description: 'Focus on a specific market to stand out and attract loyal buyers.',
+      icon: 'flat-color-icons:idea',
+    },
+    {
+      title: 'Sourcing Cards',
+      description: 'Discover the best places to buy Pokémon cards at a great price, including online stores, local events, and trade shows.',
+      icon: 'flat-color-icons:shop',
+    },
+    {
+      title: 'Listing & Pricing',
+      description: 'Master the art of listing your cards online and pricing them competitively to maximize profits.',
+      icon: 'flat-color-icons:advertising',
+    },
+    {
+      title: 'Shipping & Packaging',
+      description: 'Ensure safe delivery of cards to customers by understanding proper shipping methods and packaging techniques.',
+      icon: 'flat-color-icons:shipped',
+    },
+    {
+      title: 'Customer Relations',
+      description: 'Learn how to handle customer inquiries, build trust, and ensure customer satisfaction for repeat business.',
+      icon: 'flat-color-icons:customer-support',
+    },
+    {
+      title: 'Payment Systems',
+      description: 'Understand the best payment methods for reselling and ensuring secure transactions with buyers.',
+      icon: 'flat-color-icons:money-transfer',
+    },
+    {
+      title: 'Scaling Your Business',
+      description: 'Learn how to reinvest profits, expand your inventory, and grow your reselling operation.',
+      icon: 'flat-color-icons:businessman',
+    },
+    {
+      title: 'Tracking Profits & Losses',
+      description: 'Get tips on tracking your profits, calculating ROI, and staying financially organized.',
+      icon: 'flat-color-icons:statistics',
+    },
+]}
+>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</Features2>
+
 
   <!-- HighlightedPosts Widget ******* -->
 
   <BlogLatestPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
-                        Astro is a very interesting technology. Thanks.
-                `}
-  />
+  title="Learn More About Pokémon Reselling"
+  information={`Dive into the world of Pokémon reselling!  
+                This blog is dedicated to sharing insights, tips, and strategies to help you succeed in buying, selling, and investing in Pokémon cards and collectibles.  
+                From market trends to sourcing rare finds, each article will guide you toward making informed decisions and maximizing your profits.  
+                Whether you're a beginner or an experienced reseller, there's always something new to learn in this ever-evolving market.`}
+/>
 
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Frequently Asked Questions"
-    subtitle="Dive into the following questions to gain insights into the powerful features that AstroWind offers and how it can elevate your web development journey."
-    tagline="FAQs"
-    classes={{ container: 'max-w-6xl' }}
-    items={[
-      {
-        title: 'Why AstroWind?',
-        description:
-          "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
-      },
-      {
-        title: 'What do I need to start?',
-        description:
-          'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
-      },
-      {
-        title: 'How to install the Astro + Tailwind CSS template?',
-        description:
-          "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.",
-      },
-      {
-        title: "What's something that you don't understand?",
-        description:
-          "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
-      },
-      {
-        title: 'What is something that you would like to try again?',
-        description:
-          "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
-      },
-      {
-        title: 'If you could only ask one question to each person you meet, what would that question be?',
-        description:
-          "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
-      },
-    ]}
-  />
+  title="Frequently Asked Questions"
+  subtitle="Find answers to common questions about Pokémon card reselling and how to get started."
+  tagline="FAQs"
+  classes={{ container: 'max-w-6xl' }}
+  items={[
+    {
+      title: 'How do I determine the value of my Pokémon cards?',
+      description:
+        'Check recent sales on ebay and TCGPlayer market price, use price guides, and consider rarity, condition, and demand.',
+    },
+    {
+      title: 'Where can I sell my Pokémon cards?',
+      description:
+        'Sell through platforms like eBay, TCGPlayer, local card shops, and trading events.',
+    },
+    {
+      title: 'How should I price my Pokémon cards?',
+      description:
+        'Research recent sales of similar cards and adjust based on condition, rarity, and market trends.',
+    },
+    {
+      title: 'What are the best practices for shipping Pokémon cards?',
+      description:
+        'Use protective sleeves, top loaders, and padded envelopes. Provide tracking for security.',
+    },
+    {
+      title: 'How can I avoid scams when selling online?',
+      description:
+        'Use reputable platforms, verify buyers, and be cautious of too-good-to-be-true offers.',
+    },
+    {
+      title: 'Should I get my cards graded before selling?',
+      description:
+        'Grading can increase value, but consider grading fees and potential ROI before submitting.',
+    },
+  ]}
+/>
+
 
   <!-- Stats Widget ****************** -->
 
   <Stats
+  title="My eBay stats from 2024"
+
     stats={[
-      { title: 'Downloads', amount: '132K' },
-      { title: 'Stars', amount: '24.8K' },
-      { title: 'Forks', amount: '10.3K' },
-      { title: 'Users', amount: '48.4K' },
+      { title: 'Total Sales', amount: '$206K' },
+      { title: 'Cards Sold', amount: '27.8K' },
+      { title: 'Positive Feedback', amount: '4.2K' },
     ]}
   />
 
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
-      },
-    ]}
+  actions={[
+    {
+      variant: 'primary',
+      text: 'Patreon',
+      href: 'https://www.patreon.com/c/GemTCG',
+      target: '_blank',
+      icon: 'tabler:brand-patreon',
+    },
+    {
+    text: 'YouTube',
+    href: 'https://www.youtube.com/@GemTCG', 
+    icon: 'tabler:brand-youtube', 
+  },
+  {
+    text: 'eBay',
+    href: 'https://www.ebay.com/str/kickznkardzstore', 
+    icon: 'tabler:pokeball', 
+  }
+  ]}
   >
     <Fragment slot="title">
-      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      GemTCG<br class="block sm:hidden" />
     </Fragment>
 
     <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
+      Stick around to learn how to turn your hobby into a 6-figure business!<br class="hidden md:inline" />
     </Fragment>
   </CallToAction>
 </Layout>
+
+

@@ -1,5 +1,5 @@
 site:
-  name: AstroWind
+  name: GemTCG
   site: 'https://gemtcg.com'
   base: '/'
   trailingSlash: false
@@ -11,7 +11,7 @@ metadata:
   title:
     default: GemTCG
     template: '%s — GemTCG'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "Welcome to GemTCG! Discover Pokémon Trading Cards for sale, watch my YouTube channel, connect with me on Patreon, and dive into blogs on Pokémon card reselling."
   robots:
     index: true
     follow: true

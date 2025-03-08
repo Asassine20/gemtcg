@@ -17,7 +17,7 @@ author: GemTCG
 ---
 [](https://www.youtube.com/watch?v=znArjXcdoZA&t=296s)[](https://www.youtube.com/watch?v=znArjXcdoZA&t=296s)The Pokemon TCG market presents a lucrative opportunity for those willing to put in the time and effort to buy, process, and sell bulk cards. Whether you're looking to maximize profits or simply streamline your inventory, understanding the best methods for sourcing and selling bulk is essential. In this guide, I'll walk you through my process, sharing insights on how I manage my bulk operations efficiently.
 
-Full video [here.](<>)
+<YouTube id="znArjXcdoZA" />[](<>)
 
 ## **Sourcing Pokemon Bulk**
 

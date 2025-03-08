@@ -11,7 +11,7 @@ tags:
   - Bulk
   - eBay Tips
   - TCGPlayer Tips
-image: /_astro/maxresdefault.jpg
+image: https://s7ub4m8kg7.ufs.sh/f/vSQesHp5YCfT19KKGvQ8KCAmha3dFegQl5SvZk02BIctUYbW
 publishDate: 2025-03-07T21:04:00.000Z
 author: GemTCG
 ---

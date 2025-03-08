@@ -89,10 +89,11 @@ export const headerData = {
       href: '#',
     },
   ],
-  actions: [{ text: 'Contact', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'Contact', href: '/contact' }],
 };
 
 export const footerData = {
+  
   links: [
     {
       title: 'Stores',
@@ -131,6 +132,7 @@ export const footerData = {
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/officialgemtcg/' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/kickzNkardz/' },
   ],
+  
   footNote: `
   Web Design & SEO by <a class="text-blue-600 underline dark:text-muted" 
   href="https://targetrankseo.com/" target="_blank" rel="noopener noreferrer">

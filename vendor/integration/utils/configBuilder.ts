@@ -82,7 +82,7 @@ export interface UIConfig {
   theme: string;
 }
 
-const DEFAULT_SITE_NAME = 'Website';
+const DEFAULT_SITE_NAME = 'GemTCG';
 
 const getSite = (config: Config) => {
   const _default = {
@@ -184,6 +184,7 @@ const getAnalytics = (config: Config) => {
   const _default = {
     vendors: {
       googleAnalytics: {
+        // todo: add google analytics tag here
         id: undefined,
         partytown: true,
       },

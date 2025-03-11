@@ -12,10 +12,7 @@ export default ({ config: _themeConfig = 'src/config.yaml' } = {}): AstroIntegra
 
     hooks: {
       'astro:config:setup': async ({
-        // command,
         config,
-        // injectRoute,
-        // isRestart,
         logger,
         updateConfig,
         addWatchFile,
@@ -55,7 +52,27 @@ export default ({ config: _themeConfig = 'src/config.yaml' } = {}): AstroIntegra
                     `;
                   }
                 },
+                transformIndexHtml(html) {
+                  if (ANALYTICS?.vendors?.googleAnalytics?.id) {
+                    const gaId = ANALYTICS.vendors.googleAnalytics.id;
+                    return html.replace(
+                      '</head>',
+                      `
+                      <!-- Google tag (gtag.js) -->
+                      <script async src="https://www.googletagmanager.com/gtag/js?id=${gaId}"></script>
+                      <script>
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', '${gaId}');
+                      </script>
+                      </head>
+                      `
+                    );
+                  }
+                  return html;
               },
+            },
             ],
           },
         });

@@ -39,27 +39,6 @@ export const headerData = {
       ],
     },
     {
-      text: 'Socials',
-      links: [
-        {
-          text: 'YouTube',
-          href: getPermalink('https://www.youtube.com/@GemTCG'),
-        },
-        {
-          text: 'Patreon',
-          href: getPermalink('https://www.patreon.com/c/GemTCG'),
-        },
-        {
-          text: 'Facebook',
-          href: getPermalink('https://www.facebook.com/kickzNkardz/'),
-        },
-        {
-          text: 'Instagram',
-          href: getPermalink('https://www.instagram.com/officialgemtcg/'),
-        },
-      ],
-    },
-    {
       text: 'Blog',
       links: [
         {
@@ -83,6 +62,32 @@ export const headerData = {
         */
       ],
     },
+    {
+      text: 'Supplies',
+      href: '/affiliate/products',
+    },
+    {
+      text: 'Socials',
+      links: [
+        {
+          text: 'YouTube',
+          href: getPermalink('https://www.youtube.com/@GemTCG'),
+        },
+        {
+          text: 'Patreon',
+          href: getPermalink('https://www.patreon.com/c/GemTCG'),
+        },
+        {
+          text: 'Facebook',
+          href: getPermalink('https://www.facebook.com/kickzNkardz/'),
+        },
+        {
+          text: 'Instagram',
+          href: getPermalink('https://www.instagram.com/officialgemtcg/'),
+        },
+      ],
+    },
+
     {
       text: 'Sell Your Cards',
       href: '#',

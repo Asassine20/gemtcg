@@ -1,0 +1,215 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Content from '~/components/widgets/Content.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Affiliate Recommendations',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Affiliate Recommendations"
+    title="Discover the Best Products for Your Needs"
+    subtitle="Explore our curated selection of top-rated products, from scanners to card sleeves and bubble mailers. Find the perfect tools to enhance your workflow and projects."
+    actions={[{ variant: 'primary', target: '_blank', text: 'Start exploring', href: '/' }]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
+      alt: 'Affiliate Recommendations Hero Image',
+    }}
+  />
+
+  <!-- Features4 Replacement ********* -->
+
+  <section class="relative mx-auto max-w-7xl px-4 md:px-6 py-12 md:py-16 lg:py-20 text-default">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold tracking-tight dark:text-white sm:text-4xl">
+        Top Product Categories
+      </h2>
+      <p class="mt-4 text-lg text-slate-600 dark:text-slate-400">
+        Check out our handpicked recommendations for the best products in each category.
+      </p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+      {[
+        {
+          title: "Best Scanners",
+          description:
+            "Find the best scanners for digitizing documents, photos, and more. Perfect for home offices, businesses, and creative projects.",
+          icon: "tabler:scan",
+          href: "/blog/best-scanners",
+          buttonText: "Read More",
+        },
+        {
+          title: "Best Card Sleeves",
+          description:
+            "Protect your trading cards, gaming cards, and collectibles with our top-rated card sleeves. Durable, clear, and affordable options.",
+          icon: "tabler:cards",
+          href: "/blog/best-card-sleeves",
+          buttonText: "Read More",
+        },
+        {
+          title: "Best Bubble Mailers",
+          description:
+            "Ship your items safely with our recommended bubble mailers. Lightweight, durable, and perfect for e-commerce businesses.",
+          icon: "tabler:package",
+          href: "/blog/best-bubble-mailers",
+          buttonText: "Read More",
+        },
+        {
+          title: "Best Label Printers",
+          description:
+            "Streamline your shipping and organization with the best label printers. Ideal for small businesses and home use.",
+          icon: "tabler:printer",
+          href: "/blog/best-label-printers",
+          buttonText: "Read More",
+        },
+        {
+          title: "Best Storage Boxes",
+          description:
+            "Keep your items organized with our top picks for storage boxes. Great for home organization, moving, and archival purposes.",
+          icon: "tabler:box",
+          href: "/blog/best-storage-boxes",
+          buttonText: "Read More",
+        },
+        {
+          title: "Best Envelopes",
+          description:
+            "Find the best envelopes for mailing letters, invitations, and documents. Available in various sizes and styles.",
+          icon: "tabler:mail",
+          href: "/blog/best-envelopes",
+          buttonText: "Read More",
+        },
+      ].map((item) => (
+        <div class="block w-full h-full rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur border border-[#ffffff29] bg-white dark:bg-slate-900 p-6">
+          {item.icon && (
+            <div class="w-12 h-12 mb-6 text-primary">
+              <svg
+                class="w-12 h-12"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <use href={`/icons/tabler-sprite.svg#${item.icon.replace("tabler:", "")}`} />
+              </svg>
+            </div>
+          )}
+          <h3 class="text-xl font-bold mb-2">{item.title}</h3>
+          <p class="text-slate-600 dark:text-slate-400">{item.description}</p>
+          {item.buttonText && (
+            <a
+              href={item.href}
+              class="mt-4 inline-block px-4 py-2 bg-primary text-white rounded-md transition-colors hover:bg-blue-700"
+            >
+              {item.buttonText}
+            </a>
+          )}
+        </div>
+      ))}
+    </div>
+  </section>
+  
+  
+  
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    items={[
+      {
+        title: 'Expertly Curated',
+        description:
+          'Our recommendations are based on thorough research and customer reviews to ensure you get the best products.',
+        icon: 'tabler:star',
+      },
+      {
+        title: 'Affiliate Benefits',
+        description:
+          'Support us by purchasing through our affiliate links. You get great products, and we earn a small commission at no extra cost to you.',
+        icon: 'tabler:coin',
+      },
+      {
+        title: 'Wide Variety',
+        description:
+          'We cover a range of categories to meet all your needs, from office supplies to shipping materials.',
+        icon: 'tabler:apps',
+      },
+      {
+        title: 'Updated Regularly',
+        description:
+          'Our recommendations are frequently updated to reflect the latest products and trends.',
+        icon: 'tabler:refresh',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
+      alt: 'Affiliate Benefits Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Why Choose Our Recommendations?</h3>
+    </Fragment>
+  </Content>
+
+  <!-- Testimonials Widget *********** -->
+
+  <Testimonials
+    title="What Our Users Say"
+    testimonials={[
+      {
+        testimonial: `I found the perfect scanner for my home office through this site. The recommendations are spot on, and the affiliate links made it easy to purchase.`,
+        name: 'John Doe',
+        job: 'Freelancer',
+        image: {
+          src: 'https://images.unsplash.com/photo-1618835962148-cf177563c6c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80',
+          alt: 'John Doe Image',
+        },
+      },
+      {
+        testimonial: `The card sleeves recommended here are amazing! They’ve kept my collection in pristine condition. Highly recommend this site for collectors.`,
+        name: 'Jane Smith',
+        job: 'Collector',
+        image: {
+          src: 'https://images.unsplash.com/photo-1561406636-b80293969660?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+          alt: 'Jane Smith Image',
+        },
+      },
+      {
+        testimonial: `The bubble mailers are a game-changer for my small business. They’re affordable, durable, and perfect for shipping my products.`,
+        name: 'Mark Johnson',
+        job: 'Small Business Owner',
+        image: {
+          src: 'https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=824&q=80',
+          alt: 'Mark Johnson Image',
+        },
+      },
+    ]}
+    callToAction={{
+      target: '_blank',
+      text: 'More testimonials...',
+      href: 'https://github.com/onwidget/astrowind',
+      icon: 'tabler:chevron-right',
+    }}
+  />
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Start exploring',
+        href: '/',
+      },
+    ]}
+    title="Find the Best Products Today"
+    subtitle="Explore our affiliate recommendations and discover the tools and supplies that will make your life easier."
+  />
+</Layout>

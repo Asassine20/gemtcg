@@ -121,8 +121,17 @@ export const footerData = {
     {
       title: 'Company',
       links: [
-        { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
+        { text: 'About', href: '/about' },
+        { text: 'Blog', href: '/blog' },
+      ],
+    },
+    {
+      title: 'Affiliate Products',
+      links: [
+        { text: 'Affiliate Home', href: '/affiliate/products' },
+        { text: 'Card Scanners', href: '#' },
+        { text: 'Shipping Supplies', href: '#' },
+        { text: 'Office Supplies', href: '#' },
       ],
     },
   ],

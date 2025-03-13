@@ -12,6 +12,7 @@ tags:
   - Affiliate
 image: https://s7ub4m8kg7.ufs.sh/f/vSQesHp5YCfTEOHgm7o2MC1KTn0mO5u89VtAhxbdea34kivF
 publishDate: 2025-03-12T21:23:00.000Z
+slug: /thermal-label-printers
 author: GemTCG
 ---
 ## Why Every Pokémon Card Reseller Needs a Thermal Label Printer

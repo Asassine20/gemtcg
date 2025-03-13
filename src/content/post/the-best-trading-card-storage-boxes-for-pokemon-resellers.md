@@ -11,6 +11,7 @@ tags:
   - Office Supplies
 image: https://s7ub4m8kg7.ufs.sh/f/vSQesHp5YCfTpouKkGnOENGkHZA4a95blwydWseKxJfQgV63
 publishDate: 2025-03-12T21:40:00.000Z
+slug: /storage-boxes
 author: GemTCG
 ---
 ## Why Every Pokémon Card Reseller Needs Proper Storage Boxes

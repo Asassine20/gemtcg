@@ -54,17 +54,17 @@ export default ({ config: _themeConfig = 'src/config.yaml' } = {}): AstroIntegra
                 },
                 transformIndexHtml(html) {
                   if (ANALYTICS?.vendors?.googleAnalytics?.id) {
-                    const gaId = ANALYTICS.vendors.googleAnalytics.id;
                     return html.replace(
                       '</head>',
                       `
                       <!-- Google tag (gtag.js) -->
-                      <script async src="https://www.googletagmanager.com/gtag/js?id=${gaId}"></script>
+                      <script async src="https://www.googletagmanager.com/gtag/js?id=G-HJ0C7P3RM1"></script>
                       <script>
                         window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
-                        gtag('config', '${gaId}');
+                      
+                        gtag('config', 'G-HJ0C7P3RM1');
                       </script>
                       </head>
                       `

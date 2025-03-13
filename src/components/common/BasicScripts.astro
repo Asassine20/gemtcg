@@ -10,24 +10,31 @@ import { UI } from 'astrowind:config';
   window.basic_script = true;
 
   function applyTheme(theme) {
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
+    const isDark = theme === 'dark';
+    document.documentElement.classList.toggle('dark', isDark);
+
+    // Update image source
+    const img = document.getElementById('themeImage');
+    if (img) {
+      img.src = isDark 
+        ? "https://s7ub4m8kg7.ufs.sh/f/vSQesHp5YCfTq1EIVvNc4gMLJx3nI0Y2VlWS9zhZAvkDtdXb" 
+        : "https://s7ub4m8kg7.ufs.sh/f/vSQesHp5YCfTV74wPKn8rT4UR81w7SifEYA3gn9apoqZIhX0";
     }
   }
 
   const initTheme = function () {
+    let theme;
     if ((defaultTheme && defaultTheme.endsWith(':only')) || (!localStorage.theme && defaultTheme !== 'system')) {
-      applyTheme(defaultTheme.replace(':only', ''));
+      theme = defaultTheme.replace(':only', '');
     } else if (
       localStorage.theme === 'dark' ||
       (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
     ) {
-      applyTheme('dark');
+      theme = 'dark';
     } else {
-      applyTheme('light');
+      theme = 'light';
     }
+    applyTheme(theme);
   };
   initTheme();
 
@@ -65,12 +72,14 @@ import { UI } from 'astrowind:config';
     });
 
     attachEvent('[data-aw-toggle-color-scheme]', 'click', function () {
-      if (defaultTheme.endsWith(':only')) {
-        return;
-      }
-      document.documentElement.classList.toggle('dark');
-      localStorage.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
-    });
+    if (defaultTheme.endsWith(':only')) {
+      return;
+    }
+    const newTheme = document.documentElement.classList.contains('dark') ? 'light' : 'dark';
+    localStorage.theme = newTheme;
+    applyTheme(newTheme);
+  });
+
 
     attachEvent('[data-aw-social-share]', 'click', function (_, elem) {
       const network = elem.getAttribute('data-aw-social-share');
@@ -158,6 +167,13 @@ import { UI } from 'astrowind:config';
     initTheme();
     onLoad();
     onPageShow();
+  });
+
+    // Listen for system theme changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+    const newTheme = e.matches ? 'dark' : 'light';
+    localStorage.theme = newTheme;
+    applyTheme(newTheme);
   });
 </script>
 

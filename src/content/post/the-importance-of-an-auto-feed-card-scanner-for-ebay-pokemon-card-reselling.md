@@ -17,6 +17,7 @@ tags:
   - Affiliate
 image: https://s7ub4m8kg7.ufs.sh/f/vSQesHp5YCfTpyCZjqnOENGkHZA4a95blwydWseKxJfQgV63
 publishDate: 2025-03-11T22:33:00.000Z
+slug: /auto-feed-card-scanners
 author: GemTCG
 ---
 If you're running a Pokémon card reselling business on eBay, you probably know that time is money. The more cards you can list and sell in a short period, the more profits you'll generate. However, manually scanning cards, typing in information, and sorting them can be a cumbersome and slow process. This is where an **auto-feed card scanner** becomes your best friend. With the right scanner, you can streamline your operations, boost productivity, and ultimately scale your business to new heights.

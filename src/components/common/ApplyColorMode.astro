@@ -6,28 +6,57 @@ import { UI } from 'astrowind:config';
 
 <script is:inline define:vars={{ defaultTheme: UI.theme || 'system' }}>
   function applyTheme(theme) {
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-    const matches = document.querySelectorAll('[data-aw-toggle-color-scheme] > input');
+    const isDark = theme === 'dark';
+    document.documentElement.classList.toggle('dark', isDark);
 
+    // Update image source
+    const img = document.getElementById('themeImage');
+    if (img) {
+      img.src = isDark 
+        ? "https://s7ub4m8kg7.ufs.sh/f/vSQesHp5YCfTq1EIVvNc4gMLJx3nI0Y2VlWS9zhZAvkDtdXb" 
+        : "https://s7ub4m8kg7.ufs.sh/f/vSQesHp5YCfTV74wPKn8rT4UR81w7SifEYA3gn9apoqZIhX0";
+    }
+
+    // Update toggle elements
+    const matches = document.querySelectorAll('[data-aw-toggle-color-scheme] > input');
     if (matches && matches.length) {
       matches.forEach((elem) => {
-        elem.checked = theme !== 'dark';
+        elem.checked = !isDark;
       });
     }
   }
 
-  if ((defaultTheme && defaultTheme.endsWith(':only')) || (!localStorage.theme && defaultTheme !== 'system')) {
-    applyTheme(defaultTheme.replace(':only', ''));
-  } else if (
-    localStorage.theme === 'dark' ||
-    (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
-  ) {
-    applyTheme('dark');
-  } else {
-    applyTheme('light');
+  function getTheme() {
+    if (localStorage.theme) {
+      return localStorage.theme;
+    }
+    if (defaultTheme === 'system') {
+      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    return defaultTheme.replace(':only', '');
   }
+    // Apply the theme when the page loads
+    window.onload = function() {
+    applyTheme(getTheme());
+
+    // Listen for system preference changes and update theme accordingly
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+      applyTheme(e.matches ? 'dark' : 'light');
+    });
+  };
+
+  applyTheme(getTheme());
+
+  // Listen for system preference changes
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+    applyTheme(e.matches ? 'dark' : 'light');
+  });
+    // Listen for manual theme toggle (if applicable)
+    document.addEventListener('click', function(event) {
+    if (event.target.matches('[data-aw-toggle-color-scheme]')) {
+      const newTheme = document.documentElement.classList.contains('dark') ? 'light' : 'dark';
+      localStorage.theme = newTheme; // Save theme to localStorage
+      applyTheme(newTheme);
+    }
+  });
 </script>

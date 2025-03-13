@@ -129,7 +129,7 @@ export const footerData = {
       title: 'Affiliate Products',
       links: [
         { text: 'Affiliate Home', href: '/affiliate/products' },
-        { text: 'Card Scanners', href: '#' },
+        { text: 'Card Scanners', href: '/auto-feed-card-scanners' },
         { text: 'Shipping Supplies', href: '#' },
         { text: 'Office Supplies', href: '#' },
       ],

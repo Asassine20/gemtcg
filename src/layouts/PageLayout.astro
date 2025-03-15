@@ -15,28 +15,11 @@ const { metadata } = Astro.props;
 ---
 
 <Layout metadata={metadata}>
-  
-  <head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5256730967472287"
-      crossorigin="anonymous"></script>
-  </head>
+
   
   <slot name="header">
     <Header {...headerData} isSticky showRssFeed showToggleTheme />
   </slot>
-
-  <main>
-    <slot />
-    <!-- In-Content Ad -->
-    <ins class="adsbygoogle"
-         style="display:block; text-align:center;"
-         data-ad-client="ca-pub-5256730967472287"
-         data-ad-slot="9176417369"
-         data-ad-format="auto"></ins>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </main>
 
   <slot name="footer">
     <Footer {...footerData} />

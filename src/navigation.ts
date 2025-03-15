@@ -30,7 +30,7 @@ export const headerData = {
       links: [
         {
           text: 'eBay',
-          href: getPermalink('https://www.ebay.com/str/kickznkardzstore'),
+          href: getPermalink('https://ebay.us/Nt2NFw'),
         },
         {
           text: 'TCGPlayer',
@@ -102,7 +102,7 @@ export const footerData = {
     {
       title: 'Stores',
       links: [
-        { text: 'eBay', href: 'https://www.ebay.com/str/kickznkardzstore' },
+        { text: 'eBay', href: 'https://ebay.us/Nt2NFw' },
         { text: 'TCGPlayer', href: 'https://www.tcgplayer.com/search/all/product?seller=c488d2d6&_gl=1*1w709rc*_gcl_aw*R0NMLjE3MzU4NzM2MzUuQ2owS0NRaUFqOW03QmhEMUFSSXNBTnNJSXZCQ1ptRXhDVk42MUVOLVV4SkEyOG94OFNrQUdONmp0WkhCQ2dmanh5MUcxcDJHa3JDNTBCMGFBbEljRUFMd193Y0I.*_gcl_au*MjA3ODM3NTI5MS4xNzM5NzYyMzQwLjg5NzE5MDA3Ni4xNzQwNDYxNzM5LjE3NDA0NjE3Mzk.*_ga*MTE5NTc2ODI4NS4xNzQwNzEyMjAw*_ga_VS9BE2Z3GY*MTc0MTM4MDg1OC4yNS4xLjE3NDEzODA4OTIuMjYuMC4xMDM2NTI2MjEz&view=grid' },
       ],
     },

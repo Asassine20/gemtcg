@@ -4,11 +4,11 @@ excerpt: Shipping Pokémon cards in plain white envelopes (PWEs) is a
   cost-effective way to send lower-value cards. However, not all envelopes are
   created equal. Here’s why you should always choose self-seal envelopes and
   avoid lick-to-seal options.
-category: Affiliate Products
+category: Supplies
 tags:
   - Pokemon Reselling
   - Shipping Supplies
-  - Affiliate
+  - Supplies
 image: https://s7ub4m8kg7.ufs.sh/f/vSQesHp5YCfTF21m0mhHlPN0CeEYcMgpVLuDQrB6mZJOIG4v
 publishDate: 2025-03-12T22:41:00.000Z
 slug: /envelopes

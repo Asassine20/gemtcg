@@ -4,10 +4,10 @@ excerpt: Keeping your Pokémon card inventory organized is essential for
   efficiency and protection. Trading card-specific 4-row and 5-row boxes provide
   the best balance of space, accessibility, and protection. In this post, we’ll
   discuss why these storage solutions are a must-have for any reseller.
-category: Affiliate Products
+category: Supplies
 tags:
   - Pokemon Reselling
-  - Affiliate
+  - Supplies
   - Office Supplies
 image: https://s7ub4m8kg7.ufs.sh/f/vSQesHp5YCfTpouKkGnOENGkHZA4a95blwydWseKxJfQgV63
 publishDate: 2025-03-12T21:40:00.000Z

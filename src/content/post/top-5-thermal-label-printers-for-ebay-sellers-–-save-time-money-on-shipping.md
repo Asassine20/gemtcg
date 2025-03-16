@@ -5,11 +5,11 @@ excerpt: Shipping labels can be a time-consuming and costly part of running an
   cutting, and excessive tape use, saving you hours of work every day. In this
   guide, we’ll go over the top 5 thermal label printers that can streamline your
   shipping process and boost efficiency.
-category: Affiliate Products
+category: Supplies
 tags:
   - Pokemon Reselling
   - Office Supplies
-  - Affiliate
+  - Supplies
 image: https://s7ub4m8kg7.ufs.sh/f/vSQesHp5YCfTEOHgm7o2MC1KTn0mO5u89VtAhxbdea34kivF
 publishDate: 2025-03-12T21:23:00.000Z
 slug: /thermal-label-printers

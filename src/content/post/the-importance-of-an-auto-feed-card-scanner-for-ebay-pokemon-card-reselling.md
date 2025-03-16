@@ -10,11 +10,11 @@ excerpt: If you’re running a Pokémon card reselling business on eBay, you kno
   the past three years. Whether you're just starting out or scaling up, the
   right scanner can save you time, increase your productivity, and help you grow
   your Pokémon card business.
-category: Affiliate Products
+category: Supplies
 tags:
   - Pokemon Reselling
   - ebay Tips
-  - Affiliate
+  - Supplies
   - Office Supplies
 image: https://s7ub4m8kg7.ufs.sh/f/vSQesHp5YCfTpyCZjqnOENGkHZA4a95blwydWseKxJfQgV63
 publishDate: 2025-03-11T22:33:00.000Z

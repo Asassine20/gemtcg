@@ -6,10 +6,10 @@ excerpt: When shipping Pokémon cards, the right bubble mailer can mean the
   saves money, and using the right sizes ensures efficiency. In this guide, I'll
   cover why high-quality bubble mailers are essential and which sizes work best
   for your reselling business.
-category: Affiliate Products
+category: Supplies
 tags:
   - Pokemon Reselling
-  - Affiliate
+  - Supplies
   - Shipping Supplies
 image: https://s7ub4m8kg7.ufs.sh/f/vSQesHp5YCfTtxr02K3Se7kCGgZjwif8qEnWVNxsOpvbHlta
 publishDate: 2025-03-12T21:07:00.000Z

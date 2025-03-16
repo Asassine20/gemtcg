@@ -126,7 +126,7 @@ export const footerData = {
       ],
     },
     {
-      title: 'Recommended Supplies',
+      title: 'Supplies',
       links: [
         { text: 'All Supplies', href: '/affiliate/products' },
         { text: 'Card Scanners', href: '/auto-feed-card-scanners' },

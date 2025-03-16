@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 google.com, pub-8827287583611013, DIRECT, f08c47fec0942fa0
-=======
-google.com, pub-8827287583611013, DIRECT, f08c47fec0942fa0
->>>>>>> temp-branch

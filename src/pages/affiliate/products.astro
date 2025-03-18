@@ -2,7 +2,6 @@
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Content from '~/components/widgets/Content.astro';
 import Hero from '~/components/widgets/Hero.astro';
-import Testimonials from '~/components/widgets/Testimonials.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
@@ -17,11 +16,7 @@ const metadata = {
     tagline="Affiliate Recommendations"
     title="Discover the Best Products for Your Needs"
     subtitle="Explore my selection of top-rated products, from scanners to card sleeves and bubble mailers. Find the perfect tools to enhance your workflow in the trading card reselling industry."
-    actions={[{ variant: 'primary', target: '_blank', text: 'Start exploring', href: '/' }]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
-      alt: 'Affiliate Recommendations Hero Image',
-    }}
+    actions={[{ variant: 'primary', target: '_blank', text: 'Start exploring', href: '/#' }]}
   />
 
   <!-- Features4 Replacement ********* -->
@@ -32,13 +27,13 @@ const metadata = {
         Top Product Categories
       </h2>
       <p class="mt-4 text-lg text-slate-600 dark:text-slate-400">
-        Check out our handpicked recommendations for the best products in each category.
+        Check out my handpicked recommendations for the best products in each category.
       </p>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
       {[
         {
-          title: "Best Scanners",
+          title: "Best Card Scanners",
           description:
             "Find the best scanners for digitizing documents, photos, and more. Perfect for home offices, businesses, and creative projects.",
           icon: "tabler:scan",
@@ -48,7 +43,7 @@ const metadata = {
         {
           title: "Best Card Sleeves",
           description:
-            "Protect your trading cards, gaming cards, and collectibles with our top-rated card sleeves. Durable, clear, and affordable options.",
+            "Protect your trading cards, gaming cards, and collectibles with my top-rated card sleeves. Durable, clear, and affordable options.",
           icon: "tabler:cards",
           href: "/card-sleeves",
           buttonText: "Read More",
@@ -56,7 +51,7 @@ const metadata = {
         {
           title: "Best Bubble Mailers",
           description:
-            "Ship your items safely with our recommended bubble mailers. Lightweight, durable, and perfect for e-commerce businesses.",
+            "Ship your items safely with my recommended bubble mailers. Lightweight, durable, and perfect for e-commerce businesses.",
           icon: "tabler:package",
           href: "/bubble-mailers",
           buttonText: "Read More",
@@ -70,9 +65,16 @@ const metadata = {
           buttonText: "Read More",
         },
         {
+          title: "Best Card Savers/Top Loaders",
+          description: "Protect and preserve your valuable cards with the best card savers and top loaders. Perfect for collectors and traders.",
+          icon: "tabler:mail",
+          href: "/top-loaders-and-card-savers",
+          buttonText: "Read More",
+        },
+        {
           title: "Best Storage Boxes",
           description:
-            "Keep your items organized with our top picks for storage boxes. Great for home organization, moving, and archival purposes.",
+            "Keep your items organized with my top picks for storage boxes. Great for home organization, moving, and archival purposes.",
           icon: "tabler:box",
           href: "/storage-boxes",
           buttonText: "Read More",
@@ -138,7 +140,7 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Why Choose Our Recommendations?</h3>
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Why Choose My Recommendations?</h3>
     </Fragment>
   </Content>
 
@@ -190,10 +192,10 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Start exploring',
-        href: '/',
+        href: '/#',
       },
     ]}
     title="Find the Best Products Today"
-    subtitle="Explore our affiliate recommendations and discover the tools and supplies that will make your life easier."
+    subtitle="Explore my affiliate recommendations and discover the tools and supplies that will make your life easier."
   />
 </Layout>

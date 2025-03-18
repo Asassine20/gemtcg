@@ -87,11 +87,19 @@ export const headerData = {
         },
       ],
     },
-
     {
       text: 'Sell Your Cards',
-      href: '#',
-    },
+      links: [
+        {
+          text: 'Sell Your Collection',
+          href: getPermalink('/sell-collection'),
+        },
+        {
+          text: 'Sell Your Bulk',
+          href: getPermalink('/sell-bulk'),
+        }
+      ],
+    }
   ],
   actions: [{ text: 'Contact', href: '/contact' }],
 };

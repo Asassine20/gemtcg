@@ -1,0 +1,77 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+
+
+const metadata = {
+  title: 'Submission Form',
+};
+---
+
+<Layout metadata={metadata}>
+    <Hero
+
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Email',
+        href: 'mailto:contact@gemtcg.com',
+        target: '_blank',
+        icon: 'tabler:mail',
+      },
+      {
+      text: 'Facebook',
+      href: 'https://www.facebook.com/kickzNkardz/', 
+      icon: 'tabler:brand-facebook', 
+    },
+    {
+      text: 'Instagram',
+      href: 'https://www.instagram.com/officialgemtcg/',
+      icon: 'tabler:brand-instagram', 
+    }
+    ]}
+  >
+    <Fragment slot="title">
+      Sell Your Collection
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        <span class="font-semibold"></span> 
+        Contact me through one of the options below to sell your cards at a competitive value to a trusted buyer. Please follow the steps listed below before reaching out for a quick and easy sale!
+        </span>
+    </Fragment>
+  </Hero>
+
+
+  <FAQs
+  title="How To Sell"
+  subtitle="Follow these 4 steps to submit your bulk and sell to me in a seamless way"
+  tagline="Step By Step"
+  classes={{ container: 'max-w-6xl' }}
+  items={[
+    {
+      title: '1. Create a TCGplayer list, or Collectr list of your cards',
+      description:
+        'Have all of your cards in the collection. I only buy English, non-graded cards. ',
+    },
+    {
+      title: '2. Take screenshots of the list(For TCGplayer), or share your profile name (For Collectr)',
+      description:
+        'Have the list ready to be looked over so that I can look through it and make an offer.',
+    },
+    {
+      title: '3. Contact Me',
+      description:
+        'Reach out to me via one of the three options listed above, sharing either the screenshots of the list, or the link to the collectr portfolio. I will then look it over and send a offer',
+    },
+    {
+      title: '4. Receive Payment & Ship',
+      description:
+        'After we work out an agreed upon price, ship your cards to the following address: GemTCG, 7186 Primrose Lane, Grand Blanc, MI 48439',
+    },
+  ]}
+/>
+</Layout>
+'tabler:brand-instagram',

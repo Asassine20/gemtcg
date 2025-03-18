@@ -1,0 +1,60 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+
+
+const metadata = {
+  title: 'Submission Form',
+};
+---
+
+<Layout metadata={metadata}>
+    <Hero
+    tagline="Sell To A Trusted Buyer"
+    title="Sell Your Bulk"
+    subtitle="Follow the steps below to complete your submission"
+    actions={[{ variant: 'primary', target: '_blank', text: '📥 Get Your Own Copy', href: 'https://docs.google.com/spreadsheets/d/1heiBiNIH7Hjl-51GjZYPIS2zg4ZjP_61o36MjGX9dHA/copy' }]}
+  />
+  <!-- Embedded Google Sheet Preview -->
+  <section class="flex justify-center mt-6">
+    <div class="w-full max-w-4xl p-4 bg-gray-100 border rounded-lg shadow-md">
+      <p class="text-center text-gray-700 font-medium mb-3">Form Preview</p>
+      <iframe 
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1di16ycEa5LAzSQWzOWFRZHYryrTGduung4QicRavtkiYP5MyTmZPf2jYTACBB2pjJioggi9wCYOP/pubhtml?widget=true&amp;headers=false" 
+        width="100%" 
+        height="400" 
+        class="border rounded-lg"
+      ></iframe>
+    </div>
+  </section>
+
+  <FAQs
+  title="How To Submit"
+  subtitle="Follow these 4 steps to submit your bulk and sell to me in a seamless way"
+  tagline="Step By Step"
+  classes={{ container: 'max-w-6xl' }}
+  items={[
+    {
+      title: '1. Fill out the Google Sheet',
+      description:
+        'Make a copy of the Google Sheet and fill it out with all of the bulk you have.',
+    },
+    {
+      title: '2. Download The Completed Sheet',
+      description:
+        'Once you enter in all the amount of bulk you will be selling, download the sheet.',
+    },
+    {
+      title: '3. Email The File',
+      description:
+        'Email the downloaded sheet to contact@gemtcg.com along with your paypal username/email',
+    },
+    {
+      title: '4. Ship Your Package',
+      description:
+        'Ship your bulk to the following address: GemTCG, 7186 Primrose Lane, Grand Blanc, MI 48439',
+    },
+  ]}
+/>
+</Layout>

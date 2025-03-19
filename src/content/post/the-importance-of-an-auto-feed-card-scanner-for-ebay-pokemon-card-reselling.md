@@ -50,7 +50,7 @@ The more attractive your eBay listings are, the better your chances of attractin
 
 Here’s an example of how a scanned image looks compared to a smartphone photo:
 ![Scanned vs Smartphone Image](https://s7ub4m8kg7.ufs.sh/f/vSQesHp5YCfTnySpVZgWZsHRNhEjPSyTYF8tOuxVCpBi61or)
-As you can see, the pictures take on the scanner (bottom two pictures) display a lot better on eBay than the pictures taken from a camera/phone (top two pictures).
+As you can see, the pictures taken on the scanner (bottom two pictures) display a lot better on eBay than the pictures taken from a camera/phone (top two pictures).
 
 ### 5\. **Easier Bulk Processing**
 

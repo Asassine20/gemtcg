@@ -1,0 +1,61 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import EmailList from '~/components/widgets/EmailList.astro';
+
+const metadata = {
+    title: 'Join the Waitlist',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText
+    tagline="Pokemon Center Bot"
+    title="Never Miss Out on Pokemon Products Again!"
+    subtitle="Join the waitlist for my exclusive Pokemon Center bot that gives you instant updates and a faster checkout experience. Increase your chances of securing the latest drops!"
+  />
+
+
+  <!-- Contact Form ******************* -->
+
+  
+  <EmailList>
+    <Fragment slot="title">
+      Get Early Access to the Ultimate<br class="block sm:hidden" /><span class="sm:whitespace-nowrap"> Pokemon Center Bot!</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Be the first to use our powerful alert and checkout tool. Sign up below to secure your spot on the waitlist! ⚡
+    </Fragment>
+  </EmailList>
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+  title="Why Join the Waitlist?"
+  items={[
+      {
+        title: 'Instant Stock Alerts',
+        description: `Get real-time notifications when new Pokemon Center products go live, so you can act fast before they sell out.`,
+      },
+      {
+        title: 'Faster Checkout',
+        description:
+          'Our bot streamlines the checkout process, giving you an edge over manual buyers and increasing your chances of securing your favorite items.',
+      },
+      {
+        title: 'Exclusive Access',
+        description:
+          'Members of our waitlist will get priority access to beta testing and special updates on the bot’s features.',
+      },
+      {
+        title: 'Stay Ahead of the Game',
+        description: 'Never miss a Pokemon Center restock again. Be the first to know and the first to buy!',
+        icon: 'tabler:bell',
+      },
+    ]}
+  />
+</Layout>

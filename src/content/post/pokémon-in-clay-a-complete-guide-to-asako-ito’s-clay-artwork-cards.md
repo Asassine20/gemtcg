@@ -1,11 +1,10 @@
 ---
-title: "Pokémon in Clay: A Complete Guide to Asako Ito’s Clay Artwork Cards"
-excerpt: Asako Ito’s Pokémon card artwork is truly one-of-a-kind, featuring
-  charming clay sculptures of beloved Pokémon instead of traditional
-  illustrations. These unique cards have become fan favorites, offering a
-  whimsical and handcrafted feel that stands out in any collection. In this
-  guide, we showcase every clay artwork card by Asako Ito, so you can admire and
-  collect them all!
+title: Top 10 Most Iconic Pokémon Clay Artwork Cards by Yuka Morii
+excerpt: Yuka Morii’s Pokémon card artwork is instantly recognizable, featuring
+  adorable clay Pokémon sculptures posed in real-world settings. Her unique
+  style has made her cards some of the most beloved and sought-after by
+  collectors. In this list, we’re counting down the top 10 most iconic Yuka
+  Morii Pokémon cards—see if your favorites made the cut!
 category: Pokemon Cards
 tags:
   - Collectible Sets
@@ -14,26 +13,54 @@ image: https://pkmncards.com/wp-content/uploads/ditto-delta-species-ds-39-312x42
 publishDate: 2025-03-25T10:01:00.000Z
 author: GemTCG
 ---
-Pokémon cards have featured many stunning art styles over the years, but few are as instantly recognizable as Asako Ito’s clay artwork. Instead of drawings or digital illustrations, her cards showcase handcrafted clay Pokémon figures, often set against real-world textures like grass, sand, or fabric. This gives them a playful, almost toy-like aesthetic that collectors adore.  Since her debut in the e-Card era, Asako Ito has created dozens of clay-illustrated Pokémon cards, spanning multiple sets and generations. Some of the most iconic include Clay Pikachu, Ditto Transform Series, and Gengar’s eerie clay form. Whether you’re a seasoned collector or just discovering these charming cards, this list will help you track them all down!  Scroll down to see the full collection, complete with images and set details for each card.
+Pokémon card art comes in many forms, but few styles stand out like Yuka Morii’s clay artwork. Instead of traditional illustration, she creates miniature clay Pokémon and photographs them against textured backdrops like sand, grass, or fabric, making her cards feel almost alive. Her work has been featured across multiple sets, from *Neo Discovery* to modern expansions, and remains a favorite among collectors.
 
+Here are the top 10 most iconic Yuka Morii Pokémon cards:
 
+### **10. Pichu (Mysterious Treasures)**
 
-#### Aipom - Paradox Rift 211/182
+![Pichu (Mysterious Treasures)](https://pkmncards.com/wp-content/uploads/pichu-mysterious-treasures-mt-93-312x429.jpg "Pichu (Mysterious Treasures)")
 
-![](https://pkmncards.com/wp-content/uploads/sv4_en_211_std.jpg "Aipom")
+This tiny clay Pichu sits on a rough, earthy surface, looking up with wide, curious eyes. The simple yet warm color palette makes the figure pop, perfectly capturing Pichu’s playful and innocent nature.
 
-#### Venusaur & Snivy Tag Team GX SM Promo SM229
+### **9. Grimer (EX Dragon)**
 
-![](https://pkmncards.com/wp-content/uploads/en_US-Promo_SM-SM229-venusaur_snivy_gx-1-312x435.jpg "Venusaur & Snivy GX")
+![Grimer (EX Dragon)](https://pkmncards.com/wp-content/uploads/en_US-EX3-057-grimer-312x435.jpg "Grimer (EX Dragon)")
 
-#### Drapion V Crown Zenith Galarian Gallery GG49/GG70
+Yuka Morii’s clay Grimer oozes personality—literally! With its uneven texture and sludgy appearance, it looks like it’s slinking across a gritty surface, adding to its grimy charm.
 
-![](https://pkmncards.com/wp-content/uploads/en_US-CZ-GG049-drapion_v-312x435.jpg "Drapion V")
+### **8. Chinchou (Aquapolis)**
 
-#### Blissey Neo Revelation 2/64
+This Chinchou is perfectly positioned to appear as if it’s resting on the ocean floor, with tiny grains of sand beneath it. The soft, muted lighting gives it an underwater feel, making it one of Morii’s most atmospheric pieces.
 
-![](https://pkmncards.com/wp-content/uploads/blissey-neo-revelation-2-312x429.jpg "Blissey")
+### **7. Togepi (Neo Destiny)**
 
-#### Corsola Neo Discovery 37/75
+Togepi’s signature eggshell is sculpted with fine details, and the clay texture adds an extra level of cuteness. Placed against a simple, neutral-toned background, this card highlights Togepi’s gentle and lovable expression.
 
-![](https://pkmncards.com/wp-content/uploads/corsola-neo-discovery-37-312x429.jpg "Corsola")
+### **6. Squirtle (Expedition)**
+
+This clay Squirtle looks right at home on a realistic, sandy beach, with tiny pebbles scattered around it. The pose and soft shading make it feel like Squirtle is happily basking in the sun, bringing the scene to life.
+
+### **5. Slowbro (FireRed & LeafGreen)**
+
+Slowbro is lounging on a rocky shore, its clay sculpt emphasizing the lazy, carefree nature of the Pokémon. The added texture on Shellder’s shell contrasts beautifully with Slowbro’s smoother body, making this a standout piece.
+
+### **4. Ditto Squirtle (EX Delta Species)**
+
+Ditto, transformed into Squirtle, retains its signature beady-eyed expression, making this card both funny and charming. The clay’s glossy finish gives it a slightly different feel from Morii’s usual works, reinforcing the shapeshifting theme.
+
+### **3. Pikachu (Skyridge)**
+
+This clay Pikachu has a soft, rounded form that enhances its cuteness, and the textured background creates a natural, almost storybook-like setting. The vibrant yellow stands out against the earthy tones, making this one of Morii’s most visually striking cards.
+
+### **2. Ditto Pikachu (EX Delta Species)**
+
+One of the most beloved Ditto transformations, this Pikachu retains Ditto’s simple dot eyes and tiny mouth, giving it an oddly adorable look. The playful clay texture enhances the quirky, humorous appeal of the design.
+
+### **1. Ditto Bulbasaur (EX Delta Species)**
+
+Morii’s clay Ditto-as-Bulbasaur is both hilarious and endearing, with its blank expression perfectly capturing Ditto’s awkward transformations. The craftsmanship shines in the details of Bulbasaur’s bulb and body, making this one of the most iconic Yuka Morii cards to collect.
+
+These are just a few of the many incredible Pokémon cards Yuka Morii has created. Want to see the full list?
+
+➡️ **Check out the rest of Yuka Morii’s cards here!** \[Insert Link]

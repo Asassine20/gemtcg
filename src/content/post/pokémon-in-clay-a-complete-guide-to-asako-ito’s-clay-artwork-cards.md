@@ -9,7 +9,8 @@ category: Pokemon Cards
 tags:
   - Collectible Sets
   - Unique Cards
-image: https://pkmncards.com/wp-content/uploads/ditto-delta-species-ds-39-312x429.jpg
+image: https://s7ub4m8kg7.ufs.sh/f/vSQesHp5YCfTndfN75lgWZsHRNhEjPSyTYF8tOuxVCpBi61o
+slug: /top-10-clay-cards
 publishDate: 2025-03-25T10:01:00.000Z
 author: GemTCG
 ---
@@ -31,36 +32,52 @@ Yuka Morii’s clay Grimer oozes personality—literally! With its uneven textur
 
 ### **8. Chinchou (Aquapolis)**
 
+![Chinchou (Aquapolis)](https://pkmncards.com/wp-content/uploads/chinchou-aquapolis-aq-70-312x429.jpg "Chinchou (Aquapolis)")
+
 This Chinchou is perfectly positioned to appear as if it’s resting on the ocean floor, with tiny grains of sand beneath it. The soft, muted lighting gives it an underwater feel, making it one of Morii’s most atmospheric pieces.
 
 ### **7. Togepi (Neo Destiny)**
+
+![Togepi (Neo Destiny)](https://pkmncards.com/wp-content/uploads/togepi-neo-destiny-56-312x429.jpg "Togepi (Neo Destiny)")
 
 Togepi’s signature eggshell is sculpted with fine details, and the clay texture adds an extra level of cuteness. Placed against a simple, neutral-toned background, this card highlights Togepi’s gentle and lovable expression.
 
 ### **6. Squirtle (Expedition)**
 
+![Squirtle (Expedition)](https://pkmncards.com/wp-content/uploads/squirtle-expedition-ex-131-312x429.jpg "Squirtle (Expedition)")
+
 This clay Squirtle looks right at home on a realistic, sandy beach, with tiny pebbles scattered around it. The pose and soft shading make it feel like Squirtle is happily basking in the sun, bringing the scene to life.
 
 ### **5. Slowbro (FireRed & LeafGreen)**
+
+![Slowbro (FireRed & LeafGreen)](https://pkmncards.com/wp-content/uploads/en_US-EX06-014-slowbro-312x435.jpg "Slowbro (FireRed & LeafGreen)")
 
 Slowbro is lounging on a rocky shore, its clay sculpt emphasizing the lazy, carefree nature of the Pokémon. The added texture on Shellder’s shell contrasts beautifully with Slowbro’s smoother body, making this a standout piece.
 
 ### **4. Ditto Squirtle (EX Delta Species)**
 
+![Ditto Squirtle (EX Delta Species)](https://pkmncards.com/wp-content/uploads/ditto-delta-species-ds-40-312x429.jpg "Ditto Squirtle (EX Delta Species)")
+
 Ditto, transformed into Squirtle, retains its signature beady-eyed expression, making this card both funny and charming. The clay’s glossy finish gives it a slightly different feel from Morii’s usual works, reinforcing the shapeshifting theme.
 
 ### **3. Pikachu (Skyridge)**
+
+![Pikachu (Skyridge)](https://pkmncards.com/wp-content/uploads/pikachu-skyridge-sk-84-312x429.jpg "Pikachu (Skyridge)")
 
 This clay Pikachu has a soft, rounded form that enhances its cuteness, and the textured background creates a natural, almost storybook-like setting. The vibrant yellow stands out against the earthy tones, making this one of Morii’s most visually striking cards.
 
 ### **2. Ditto Pikachu (EX Delta Species)**
 
+![Ditto Pikachu (EX Delta Species)](https://pkmncards.com/wp-content/uploads/ditto-delta-species-ds-63-312x429.jpg "Ditto Pikachu (EX Delta Species)")
+
 One of the most beloved Ditto transformations, this Pikachu retains Ditto’s simple dot eyes and tiny mouth, giving it an oddly adorable look. The playful clay texture enhances the quirky, humorous appeal of the design.
 
 ### **1. Ditto Bulbasaur (EX Delta Species)**
+
+![Ditto Bulbasaur (EX Delta Species)](https://pkmncards.com/wp-content/uploads/ditto-delta-species-ds-36-312x429.jpg "Ditto Bulbasaur (EX Delta Species)")
 
 Morii’s clay Ditto-as-Bulbasaur is both hilarious and endearing, with its blank expression perfectly capturing Ditto’s awkward transformations. The craftsmanship shines in the details of Bulbasaur’s bulb and body, making this one of the most iconic Yuka Morii cards to collect.
 
 These are just a few of the many incredible Pokémon cards Yuka Morii has created. Want to see the full list?
 
-➡️ **Check out the rest of Yuka Morii’s cards here!** \[Insert Link]
+➡️ **[Check out the rest of Yuka Morii’s cards here!](https://pkmncards.com/artist/yuka-morii/?sort=abc&ord=auto&display=images)**

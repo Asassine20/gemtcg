@@ -1,0 +1,57 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import EmailList from '~/components/widgets/EmailList.astro';
+import TCGWatchEmailList from '../components/widgets/TCGWatchEmailList.astro';
+
+const metadata = {
+    title: 'Join the Waitlist',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText
+    tagline="Stay Ahead of the Market"
+    title="Join the TCG Watch Waitlist!"
+    subtitle="Sign up for TCG Watch and get real-time alerts on Pokemon TCG market trends. Maximize your profits and stay ahead of price spikes and drops!"
+  />
+
+
+  <!-- Contact Form ******************* -->
+
+  
+  <TCGWatchEmailList>
+    <Fragment slot="title">
+      Get Early Access to the Ultimate<br class="block sm:hidden" /><span class="sm:whitespace-nowrap"> Pokemon Center Alert Tool!</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Be the first to use our powerful alert and checkout tool. Sign up below to secure your spot on the waitlist! ⚡
+    </Fragment>
+  </TCGWatchEmailList>
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+  title="Why Join the Waitlist?"
+  items={[
+      {
+        title: 'Price Spike Alerts',
+        description: `Get notified instantly when a Pokemon TCG product spikes in price, so you can adjust your eBay listings and maximize profits.`,
+      },
+      {
+        title: 'Buy Low Opportunities',
+        description:
+          'Receive alerts when a card drops significantly in price, allowing you to scoop up undervalued products before the market corrects.',
+      },
+      {
+        title: 'Stay Ahead of Market Trends',
+        description: 'Monitor the TCGPlayer market with ease and never get caught off guard by sudden buyouts or price crashes.',
+        icon: 'tabler:chart-line',
+      },
+    ]}
+  />
+</Layout>

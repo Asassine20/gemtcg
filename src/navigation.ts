@@ -67,28 +67,16 @@ export const headerData = {
       href: '/affiliate/products',
     },
     {
-      text: 'Pokemon Alert Tool',
-      href: '/pokemon-alert-tool',
-    },
-    {
-      text: 'Socials',
+      text: 'Tools',
       links: [
         {
-          text: 'YouTube',
-          href: getPermalink('https://www.youtube.com/@GemTCG'),
+          text: 'Pokemon Center Restock Tool',
+          href: getPermalink('/pokemon-alert-tool'),
         },
         {
-          text: 'Patreon',
-          href: getPermalink('https://www.patreon.com/c/GemTCG'),
-        },
-        {
-          text: 'Facebook',
-          href: getPermalink('https://www.facebook.com/kickzNkardz/'),
-        },
-        {
-          text: 'Instagram',
-          href: getPermalink('https://www.instagram.com/officialgemtcg/'),
-        },
+          text: 'TCG Watch',
+          href: getPermalink('/tcg-watch'),
+        }
       ],
     },
     {

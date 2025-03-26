@@ -3,7 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Features2 from '~/components/widgets/Features2.astro';
-import EmailList from '~/components/widgets/EmailList.astro';
+import PokemonBotEmailList from '~/components/widgets/PokemonBotEmailList.astro';
 
 const metadata = {
     title: 'Join the Waitlist',
@@ -23,7 +23,7 @@ const metadata = {
   <!-- Contact Form ******************* -->
 
   
-  <EmailList>
+  <PokemonBotEmailList>
     <Fragment slot="title">
       Get Early Access to the Ultimate<br class="block sm:hidden" /><span class="sm:whitespace-nowrap"> Pokemon Center Alert Tool!</span>
     </Fragment>
@@ -31,7 +31,7 @@ const metadata = {
     <Fragment slot="subtitle">
       Be the first to use our powerful alert and checkout tool. Sign up below to secure your spot on the waitlist! ⚡
     </Fragment>
-  </EmailList>
+  </PokemonBotEmailList>
   <!-- Features2 Widget ************** -->
 
   <Features2

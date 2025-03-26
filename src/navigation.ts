@@ -67,8 +67,8 @@ export const headerData = {
       href: '/affiliate/products',
     },
     {
-      text: 'Pokemon Bot',
-      href: '/pokemon-bot',
+      text: 'Pokemon Alert Tool',
+      href: '/pokemon-alert-tool',
     },
     {
       text: 'Socials',

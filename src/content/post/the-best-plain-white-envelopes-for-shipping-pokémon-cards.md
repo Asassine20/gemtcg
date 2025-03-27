@@ -30,12 +30,12 @@ Instead, opt for **self-seal envelopes**, which use a **peel-and-stick closure**
 
 ### **Top Recommended Self-Seal Envelopes**
 
-1. **Amazon Basics 12 x 9 Self-Seal Envelopes** – Budget-friendly and reliable.
-   [Check it out here](https://amzn.to/3FtQ4fF)
-2. **Best Budget Security-Tinted Envelopes** – Extra privacy for customer satisfaction.
-   [Check it out here](https://amzn.to/41N25nJ)
-3. **Self-Seal White Envelopes w/Window** – Classic choice with a strong adhesive, and a window for packing slips to show through.
-   [Check it out here](https://amzn.to/4hw7zJq)
+1. **Amazon Basics 12 x 9 Self-Seal Envelopes** – Budget-friendly and reliable.  
+   [Buy on Amazon](https://amzn.to/3FtQ4fF)
+2. **Best Budget Security-Tinted Envelopes** – Extra privacy for customer satisfaction.  
+   [Buy on Amazon](https://amzn.to/41N25nJ)
+3. **Self-Seal White Envelopes w/Window** – Classic choice with a strong adhesive, and a window for packing slips to show through.  
+   [Buy on Amazon](https://amzn.to/4hw7zJq)
 
 ## **Final Thoughts: Get the Right Envelopes & Save Time**
 
@@ -43,4 +43,5 @@ Using **self-seal plain white envelopes** makes shipping more efficient, profess
 
 🚀 **Upgrade your shipping game today with the best self-seal envelopes!**
 
-👉 [Shop the Best Plain White Envelopes Here](*https://amzn.to/3FtQ4fF*)
+👉 Shop the Best Plain White Envelopes Here  
+[Buy on Amazon](*https://amzn.to/3FtQ4fF*)

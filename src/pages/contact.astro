@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Contact',
@@ -40,25 +41,36 @@ const metadata = {
   />
  */}
   <!-- Features2 Widget ************** -->
-  <Hero
-    actions={[
-      {
-        text: 'Facebook',
-        href: 'https://www.facebook.com/kickzNkardz/',
-        target: '_blank',
-        icon: 'tabler:brand-facebook',
-      },
-      {
-      text: 'Instagram',
-      href: 'https://www.instagram.com/officialgemtcg/', 
-      icon: 'tabler:brand-instagram', 
+
+  <CallToAction
+  actions={[
+    {
+      variant: 'primary',
+      text: 'Patreon',
+      href: 'https://www.patreon.com/c/GemTCG',
+      target: '_blank',
+      icon: 'tabler:brand-patreon',
     },
     {
-      text: 'Email',
-      href: 'mailto:contact@gemtcg.com', 
-      icon: 'tabler:mail', 
-    }
-    ]}
+    text: 'YouTube',
+    href: 'https://www.youtube.com/@GemTCG', 
+    icon: 'tabler:brand-youtube', 
+  },
+  {
+    text: 'eBay',
+    href: 'https://ebay.us/Nt2NFw', 
+    icon: 'tabler:pokeball', 
+  }
+  ]}
   >
+    <Fragment slot="title">
+      GemTCG<br class="block sm:hidden" />
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Interested in business collaborations? Let's work together on YouTube promotions, website partnerships, and more!<br class="hidden md:inline" />
+  </Fragment>
+  
+  </CallToAction>
 
 </Layout>

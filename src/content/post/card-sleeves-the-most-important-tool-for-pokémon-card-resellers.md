@@ -27,19 +27,24 @@ If you’ve ever received a card in a dirty, scratched-up sleeve, you know how f
 
 Nothing screams “I don’t care” more than sending a card in a **dusty, grimy sleeve**. Buyers expect their purchases to arrive in **clean, fresh sleeves**, and a dirty sleeve can make a card **look worse than it actually is**. Presenting your cards in **clean sleeves** ensures that customers perceive your store as professional and reputable.
 
-💡 **Recommended Product:** [Ultra Pro Penny Sleeves – 100 Pack](https://ebay.us/ouoD19)
+💡 **Recommended Product:** Ultra Pro Penny Sleeves – 100 Pack  
+[Buy on eBay](https://ebay.us/ouoD19)  
+[Buy on Amazon](https://amzn.to/3Xwd1VH)
 
 ### 2. **Protection from Damage**
 
 Many resellers don’t realize that **dirty sleeves can actually damage cards** over time. Dirt and debris inside old sleeves can create **micro-scratches**, reducing the card’s value and making it harder to sell at premium prices. Clean sleeves act as a **barrier against dust, moisture, and wear**, preserving your inventory’s quality.
 
-💡 **Recommended Product:** [Dragon Shield Standard Card Sleeves – Matte Clear](https://amzn.to/4kO1qLy)
+💡 **Recommended Product:** Dragon Shield Standard Card Sleeves – Matte Clear  
+[Buy on Amazon](https://amzn.to/4kO1qLy)
 
 ### 3. **Every Card Needs a Sleeve for Shipping**
 
 If you’re selling Pokémon cards online, **every single card you ship must be inside a sleeve**. Not only is this a best practice, but platforms like **eBay and TCGPlayer** expect sellers to follow this standard. Keeping a large supply of sleeves ensures that you’re **never caught unprepared** when packing orders.
 
-💡 **Recommended Product:** [BCW Card Sleeves – Budget-Friendly Bulk Pack](https://ebay.us/uKM94Q)
+💡 **Recommended Product:** BCW Card Sleeves – Budget-Friendly Bulk Pack  
+[Buy on eBay](https://ebay.us/uKM94Q)  
+[Buy on Amazon](https://amzn.to/4l4Ysm6)
 
 ## Stock Up & Level Up Your Business
 
@@ -47,4 +52,6 @@ A successful Pokémon reselling business relies on more than just sourcing valua
 
 🚀 **Get the best sleeves today at affordable prices and ensure every card looks its absolute best!**
 
-👉 [Shop the Best Trading Card Sleeves Here](https://ebay.us/ouoD19)
+👉 Shop the Best Trading Card Sleeves Here  
+[Buy on eBay](https://ebay.us/ouoD19)  
+[Buy on Amazon](https://amzn.to/4kO1qLy)

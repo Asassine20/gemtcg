@@ -65,7 +65,7 @@ Let’s dive in and find the best card to supercharge your reselling hustle!
 
 - - -
 
-## [4. American Express Blue Business Cash™](https://www.americanexpress.com/en-us/business/credit-cards/blue-business-cash/)
+## [4. American Express Blue Business Cash™](https://americanexpress.com/en-us/referral/bluebusinessplus-credit-card?ref=ANDRESCIdC&xl=cp15)
 
 ### Why It’s Great for Resellers:
 

@@ -40,27 +40,7 @@ export const headerData = {
     },
     {
       text: 'Blog',
-      links: [
-        {
-          text: 'Blog List',
-          href: getBlogPermalink(),
-        },
-        /*
-        {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-        },
-        {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
-        },
-
-        {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
-        },
-        */
-      ],
+      href: '/blog',
     },
     {
       text: 'Supplies',
@@ -70,8 +50,8 @@ export const headerData = {
       text: 'Tools',
       links: [
         {
-          text: 'Pokemon Center Restock Tool',
-          href: getPermalink('/pokemon-alert-tool'),
+          text: 'eBay Fee Calculator',
+          href: getPermalink('/ebay-fee-calculator'),
         },
         {
           text: 'TCG Watch',
@@ -132,6 +112,13 @@ export const footerData = {
         { text: 'Card Scanners', href: '/auto-feed-card-scanners' },
         { text: 'Shipping Supplies', href: '#' },
         { text: 'Office Supplies', href: '#' },
+      ],
+    },
+    {
+      title: 'Tools',
+      links: [
+        { text: 'eBay Fee Calculator', href: '/ebay-fee-calculator' },
+        { text: 'TCG Watch', href: '/tcg-watch' },
       ],
     },
   ],

@@ -1,0 +1,156 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Content from '~/components/widgets/Content.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'eBay Fee Calculator',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+  <Hero
+    title="eBay Fee Calculator"
+    subtitle="Calculate your eBay fees and profit margin for any sale. Just enter your sale details below. eBay fee is based off of the collectible, non-sport trading card category fee. "
+  />
+
+  <!-- Calculator Section -->
+  <div class="container mx-auto px-25 py-8" style="margin-top: -150px;">
+    <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-md p-6">
+      
+      <form id="feeCalculator" class="space-y-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <label for="soldPrice" class="block text-sm font-medium text-gray-700">Sold Price ($)</label>
+            <input type="number" step="0.01" id="soldPrice" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500" value="0.00" required>
+          </div>
+          <div>
+            <label for="shippingCharged" class="block text-sm font-medium text-gray-700">Shipping Charged ($)</label>
+            <input type="number" step="0.01" id="shippingCharged" value="0.00" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+          </div>
+          <div>
+            <label for="itemCost" class="block text-sm font-medium text-gray-700">Item Cost ($)</label>
+            <input type="number" step="0.01" id="itemCost" value="0.00" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+          </div>
+          <div>
+            <label for="shippingCost" class="block text-sm font-medium text-gray-700">Shipping Cost ($)</label>
+            <input type="number" step="0.01" id="shippingCost" value="0.00" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+          </div>
+          <div>
+            <label for="ebayStore" class="block text-sm font-medium text-gray-700">eBay Store</label>
+            <select id="ebayStore" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+              <option value="none">No Store</option>
+              <option value="starter">Starter</option>
+              <option value="basic">Basic</option>
+              <option value="premium">Premium</option>
+              <option value="anchor">Anchor</option>
+              <option value="enterprise">Enterprise</option>
+            </select>
+          </div>
+          <div>
+            <label for="sellerLevel" class="block text-sm font-medium text-gray-700">Seller Level</label>
+            <select id="sellerLevel" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+              <option value="standard">Standard</option>
+              <option value="top_rated">Top Rated</option>
+              <option value="below_standard">Below Standard</option>
+            </select>
+          </div>
+          <div>
+            <label for="promotedRate" class="block text-sm font-medium text-gray-700">Promoted Listing Rate (%)</label>
+            <input type="number" step="0.01" id="promotedRate" value="0.00" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+          </div>
+        </div>
+      </form>
+
+      <div id="results" class="mt-8">
+        <h3 class="text-lg font-semibold mb-4">Calculation Results</h3>
+        <div class="space-y-2">
+          <div class="flex justify-between">
+            <span>eBay Final Value Fee:</span>
+            <span id="finalValueFee" class="text-red-600">$0.00</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Promoted Listing Fee:</span>
+            <span id="promotedFee" class="text-red-600">$0.00</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Total Fees:</span>
+            <span id="totalFees" class="text-red-600">$0.00</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Total Costs (Item + Shipping):</span>
+            <span id="totalCosts" class="text-red-600">$0.00</span>
+          </div>
+          <div class="border-t border-gray-200 my-2"></div>
+          <div class="flex justify-between font-bold text-lg">
+            <span>Profit:</span>
+            <span id="profit" class="text-green-600">$0.00</span>
+          </div>
+          <div class="flex justify-between font-bold text-lg">
+            <span>Profit Margin:</span>
+            <span id="profitMargin" class="text-green-600">0.00%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script is:inline>
+    // Get all input elements
+    const inputs = document.querySelectorAll('#feeCalculator input, #feeCalculator select');
+    
+    // Add event listeners to all inputs
+    inputs.forEach(input => {
+      input.addEventListener('input', calculateFees);
+      input.addEventListener('change', calculateFees);
+    });
+    
+    // Initial calculation on page load
+    document.addEventListener('DOMContentLoaded', calculateFees);
+    
+    function calculateFees() {
+      // Get input values
+      const soldPrice = parseFloat(document.getElementById('soldPrice').value) || 0;
+      const shippingCharged = parseFloat(document.getElementById('shippingCharged').value) || 0;
+      const itemCost = parseFloat(document.getElementById('itemCost').value) || 0;
+      const shippingCost = parseFloat(document.getElementById('shippingCost').value) || 0;
+      const promotedRate = parseFloat(document.getElementById('promotedRate').value) || 0;
+      const sellerLevel = document.getElementById('sellerLevel').value;
+      
+      // Calculate fees
+      let finalValueRate = 0.1325; // Default 13.25%
+      
+      // Adjust rate based on seller level
+      if (sellerLevel === 'top_rated') {
+        finalValueRate *= 0.9; // 10% discount for top rated
+      } else if (sellerLevel === 'below_standard') {
+        finalValueRate += 0.06; // Additional 6% for below standard
+      }
+      
+      // Calculate final value fee (applied to sold price + shipping charged)
+      const finalValueFee = (soldPrice + shippingCharged) * finalValueRate;
+      
+      // Calculate promoted listing fee
+      const promotedFee = soldPrice * (promotedRate / 100);
+      
+      // Calculate totals
+      const totalRevenue = soldPrice + shippingCharged;
+      const totalFees = finalValueFee + promotedFee;
+      const totalCosts = itemCost + shippingCost;
+      const profit = totalRevenue - totalFees - totalCosts;
+      
+      // Calculate profit margin (profit as percentage of total revenue)
+      const profitMargin = totalRevenue > 0 ? (profit / totalRevenue) * 100 : 0;
+      
+      // Display results
+      document.getElementById('finalValueFee').textContent = '$' + finalValueFee.toFixed(2);
+      document.getElementById('promotedFee').textContent = '$' + promotedFee.toFixed(2);
+      document.getElementById('totalFees').textContent = '$' + totalFees.toFixed(2);
+      document.getElementById('totalCosts').textContent = '$' + totalCosts.toFixed(2);
+      document.getElementById('profit').textContent = '$' + profit.toFixed(2);
+      document.getElementById('profitMargin').textContent = profitMargin.toFixed(2) + '%';
+    }
+  </script>
+</Layout>

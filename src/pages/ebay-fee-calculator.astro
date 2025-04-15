@@ -8,7 +8,6 @@ const metadata = {
   title: 'eBay Fee Calculator',
 };
 ---
-
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
   <Hero
@@ -61,6 +60,10 @@ const metadata = {
             <input type="number" step="0.01" id="shippingCost" value="0.00" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
           </div>
           <div>
+            <label for="numberOfOrders" class="block text-sm font-medium text-gray-700">Number of Orders</label>
+            <input type="number" id="numberOfOrders" value="1" min="1" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+          </div>
+          <div>
             <label for="ebayStore" class="block text-sm font-medium text-gray-700">eBay Store</label>
             <select id="ebayStore" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
               <option value="none">No Store</option>
@@ -102,8 +105,12 @@ const metadata = {
             <span id="totalFees" class="text-red-600">$0.00</span>
           </div>
           <div class="flex justify-between">
-            <span>Total Costs (Item + Shipping):</span>
-            <span id="totalCosts" class="text-red-600">$0.00</span>
+            <span>Total Item Costs:</span>
+            <span id="totalItemCosts" class="text-red-600">$0.00</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Total Shipping Costs:</span>
+            <span id="totalShippingCosts" class="text-red-600">$0.00</span>
           </div>
           <div class="border-t border-gray-200 my-2"></div>
           <div class="flex justify-between font-bold text-lg">
@@ -140,6 +147,7 @@ const metadata = {
       const shippingCost = parseFloat(document.getElementById('shippingCost').value) || 0;
       const promotedRate = parseFloat(document.getElementById('promotedRate').value) || 0;
       const sellerLevel = document.getElementById('sellerLevel').value;
+      const numberOfOrders = parseInt(document.getElementById('numberOfOrders').value) || 1;
       
       // Calculate fees
       let finalValueRate = 0.1325; // Default 13.25%
@@ -152,16 +160,17 @@ const metadata = {
       }
       
       // Calculate final value fee (applied to sold price + shipping charged)
-      const finalValueFee = (soldPrice + shippingCharged) * finalValueRate;
+      const finalValueFee = (soldPrice + shippingCharged) * finalValueRate * numberOfOrders;
       
       // Calculate promoted listing fee
-      const promotedFee = soldPrice * (promotedRate / 100);
+      const promotedFee = soldPrice * (promotedRate / 100) * numberOfOrders;
       
       // Calculate totals
-      const totalRevenue = soldPrice + shippingCharged;
+      const totalRevenue = (soldPrice + shippingCharged) * numberOfOrders;
       const totalFees = finalValueFee + promotedFee;
-      const totalCosts = itemCost + shippingCost;
-      const profit = totalRevenue - totalFees - totalCosts;
+      const totalItemCosts = itemCost * numberOfOrders;
+      const totalShippingCosts = shippingCost * numberOfOrders;
+      const profit = totalRevenue - totalFees - totalItemCosts - totalShippingCosts;
       
       // Calculate profit margin (profit as percentage of total revenue)
       const profitMargin = totalRevenue > 0 ? (profit / totalRevenue) * 100 : 0;
@@ -170,7 +179,8 @@ const metadata = {
       document.getElementById('finalValueFee').textContent = '$' + finalValueFee.toFixed(2);
       document.getElementById('promotedFee').textContent = '$' + promotedFee.toFixed(2);
       document.getElementById('totalFees').textContent = '$' + totalFees.toFixed(2);
-      document.getElementById('totalCosts').textContent = '$' + totalCosts.toFixed(2);
+      document.getElementById('totalItemCosts').textContent = '$' + totalItemCosts.toFixed(2);
+      document.getElementById('totalShippingCosts').textContent = '$' + totalShippingCosts.toFixed(2);
       document.getElementById('profit').textContent = '$' + profit.toFixed(2);
       document.getElementById('profitMargin').textContent = profitMargin.toFixed(2) + '%';
     }

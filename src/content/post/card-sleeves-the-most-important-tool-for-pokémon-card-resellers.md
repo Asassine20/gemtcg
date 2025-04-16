@@ -4,7 +4,7 @@ excerpt: When reselling Pokémon cards, presentation and protection matter.
   Clean, high-quality card sleeves not only enhance professionalism but also
   safeguard your inventory from damage. In this guide, we’ll explore why fresh
   card sleeves are essential for your eBay store and recommend the best options
-  to stock up on
+  to stock up on. This site contains affiliate links for which I may be compensated.
 category: Supplies
 tags:
   - Pokemon Reselling

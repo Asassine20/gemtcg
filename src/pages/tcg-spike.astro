@@ -4,39 +4,55 @@ import HeroText from '~/components/widgets/HeroText.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import EmailList from '~/components/widgets/EmailList.astro';
-import TCGWatchEmailList from '../components/widgets/TCGWatchEmailList.astro';
+import Image from '~/components/common/Image.astro';
+import Hero from '~/components/widgets/Hero.astro';
 
 const metadata = {
-    title: 'Join the Waitlist',
+    title: 'TCG Watch - Pokemon TCG Price Alerts',
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
+  <Hero
+  image={`
+    <img
+      src="https://s7ub4m8kg7.ufs.sh/f/vSQesHp5YCfTAFUgP9aUbo0h6lMKmiSyEQqsjwdVvXcrN8Ot"
+      alt="TCG Spike Dashboard"
+      width="auto"
+      height="auto"
+      style="
+        object-fit: cover;
+        border-radius: 8px;
+        border: 2px solid #00d1b2;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      "
+    />
+  `}
+  actions={[
+    {
+      variant: 'tcgspike',
+      text: 'TCG Spike',
+      href: 'https://www.tcgspike.com/',
+      target: '_blank',
+    }
+  ]}
+>
+<Fragment slot="title">
+  TCG Spike is Now Live!
+</Fragment>
 
-  <HeroText
-    tagline="Stay Ahead of the Market"
-    title="Join the TCG Watch Waitlist!"
-    subtitle="Sign up for TCG Watch and get real-time alerts on Pokemon TCG market trends. Maximize your profits and stay ahead of price spikes and drops!"
-  />
-
-
-  <!-- Contact Form ******************* -->
-
-  <TCGWatchEmailList>
-    <Fragment slot="title">
-      Get Early Access to the Ultimate<br class="block sm:hidden" /><span class="sm:whitespace-nowrap"> TCG Price Alert Tool!</span>
-    </Fragment>
-  
-    <Fragment slot="subtitle">
-      Stay ahead with daily alerts on cards spiking or dropping in price. Sign up to secure your spot on the waitlist! 📈📉
-    </Fragment>
-  </TCGWatchEmailList>
-  
+<Fragment slot="subtitle">
+  <span class="hidden sm:inline">
+    Get real-time alerts on Pokemon market trends. Maximize your profits with price spike and drop notifications.
+    </span>
+</Fragment>
+</Hero>
   <!-- Features2 Widget ************** -->
 
+
   <Features2
-  title="Why Join the Waitlist?"
+  title="Why Use TCG Watch?"
   items={[
       {
         title: 'Price Spike Alerts',
@@ -50,7 +66,6 @@ const metadata = {
       {
         title: 'Stay Ahead of Market Trends',
         description: 'Monitor the TCGPlayer market with ease and never get caught off guard by sudden buyouts or price crashes.',
-        icon: 'tabler:chart-line',
       },
     ]}
   />

@@ -36,6 +36,9 @@
   .btn-tertiary {
     @apply btn border-none shadow-none text-muted hover:text-gray-900 dark:text-gray-400 dark:hover:text-white;
   }
+  .btn-tcgspike {
+    @apply btn border-none shadow-none text-black bg-[#00d1b2] hover:bg-[#00b89c] dark:text-black dark:hover:bg-white;
+  }
 }
 
 #header.scroll > div:first-child {

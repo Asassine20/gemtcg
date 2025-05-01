@@ -54,8 +54,8 @@ export const headerData = {
           href: getPermalink('/ebay-fee-calculator'),
         },
         {
-          text: 'TCG Watch',
-          href: getPermalink('/tcg-watch'),
+          text: 'TCG Spike',
+          href: getPermalink('/tcg-spike'),
         }
       ],
     },

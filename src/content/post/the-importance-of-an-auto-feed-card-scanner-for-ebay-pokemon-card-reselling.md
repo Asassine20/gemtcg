@@ -63,7 +63,7 @@ Top 5 Auto Feed Card Scanners for eBay Pokémon Card Reselling
 
 Now that we've covered why an auto-feed card scanner is essential for your eBay Pokémon card business, let's dive into the **best scanners** for your needs. Based on my three years of experience in this space and handling thousands of cards, I've narrowed down my top picks into categories for different budgets and needs.
 
-### 1\. **Best Overall: Fujitsu ScanSnap iX1600**https://amzn.to/3FkHCPL
+### 1\. **Best Overall: Fujitsu ScanSnap iX1600**
 
 The **Fujitsu ScanSnap iX1600** is, in my opinion, the **best overall scanner** for any serious Pokémon card reseller. Here's why:
 

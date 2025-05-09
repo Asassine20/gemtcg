@@ -164,10 +164,11 @@ const metadata = {
       
       // Calculate promoted listing fee
       const promotedFee = soldPrice * (promotedRate / 100) * numberOfOrders;
-      
+      // 30 cent and 40 cent flat fee
+      const flatFee = soldPrice < 10 ? 0.30 : 0.40;
       // Calculate totals
       const totalRevenue = (soldPrice + shippingCharged) * numberOfOrders;
-      const totalFees = finalValueFee + promotedFee;
+      const totalFees = (finalValueFee + promotedFee + flatFee) * numberOfOrders;
       const totalItemCosts = itemCost * numberOfOrders;
       const totalShippingCosts = shippingCost * numberOfOrders;
       const profit = totalRevenue - totalFees - totalItemCosts - totalShippingCosts;

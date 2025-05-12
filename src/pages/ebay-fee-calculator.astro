@@ -168,7 +168,7 @@ const metadata = {
       const flatFee = soldPrice < 10 ? 0.30 : 0.40;
       // Calculate totals
       const totalRevenue = (soldPrice + shippingCharged) * numberOfOrders;
-      const totalFees = (finalValueFee + promotedFee + flatFee) * numberOfOrders;
+      const totalFees = finalValueFee + promotedFee + (flatFee * numberOfOrders);
       const totalItemCosts = itemCost * numberOfOrders;
       const totalShippingCosts = shippingCost * numberOfOrders;
       const profit = totalRevenue - totalFees - totalItemCosts - totalShippingCosts;

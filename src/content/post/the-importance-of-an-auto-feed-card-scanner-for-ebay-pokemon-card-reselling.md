@@ -127,11 +127,11 @@ For the past three years, I've relied on the **Epson WorkForce ES-400** as my pr
 
 * * * * *
 
-### 5\. **Best Premium Option: Fujitsu fi-7030 Document Scanner**
+### 5\. **Best Premium Option: Fujitsu fi-8170 Document Scanner**
 
-If you're running a high-volume eBay store and need a scanner that can keep up with heavy demand, the **Fujitsu fi-7030** is the best premium option on the market.
+If you're running a high-volume eBay store and need a scanner that can keep up with heavy demand, the **Fujitsu fi-8170** is the best premium option on the market.
 
--   **Super Fast**: The Fujitsu fi-7030 can scan up to **100 pages per minute**, ensuring you can process large batches of cards quickly.
+-   **Super Fast**: The Fujitsu fi-8170 can scan up to **70 pages per minute**, ensuring you can process large batches of cards quickly.
 -   **Space-Saving Design**: Its ultra-slim design means it doesn't take up too much space on your desk.
 -   **High Resolution**: With a **600 dpi resolution**, it produces high-quality, detailed scans.
 -   **Automatic Document Feeder**: It supports up to **100 cards at once**, ideal for fast batch scanning.
@@ -139,7 +139,7 @@ If you're running a high-volume eBay store and need a scanner that can keep up w
 **Price**: Approximately **$750 (as of March 2025)**\
 **Why I Recommend It**: For high-volume sellers who need a reliable, fast, and compact scanner, this one ticks all the boxes.
 
-[Check out the Fujitsu fi-7030 on Amazon!](https://amzn.to/3FmxBlc)
+[Check out the Fujitsu fi-8170 on Amazon!](https://amzn.to/4lJ7hkK)
 
 * * * * *
 

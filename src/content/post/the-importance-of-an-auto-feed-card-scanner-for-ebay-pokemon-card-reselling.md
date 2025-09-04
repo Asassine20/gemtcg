@@ -29,6 +29,8 @@ Please keep in mind that these products do have affiliate links, so if you want 
 
 * * * * *
 
+Check out my current top scanner picks here: **[Amazon Storefront](https://www.amazon.com/shop/gemtcg)**
+
 Why You Need an Auto Feed Card Scanner for eBay Pokémon Card Reselling
 ----------------------------------------------------------------------
 
@@ -63,90 +65,14 @@ Top 5 Auto Feed Card Scanners for eBay Pokémon Card Reselling
 
 Now that we've covered why an auto-feed card scanner is essential for your eBay Pokémon card business, let's dive into the **best scanners** for your needs. Based on my three years of experience in this space and handling thousands of cards, I've narrowed down my top picks into categories for different budgets and needs.
 
-### 1\. **Best Overall: Fujitsu ScanSnap iX1600**
+## Amazon Storefront
 
-The **Fujitsu ScanSnap iX1600** is, in my opinion, the **best overall scanner** for any serious Pokémon card reseller. Here's why:
-
--   **Fast and Efficient**: The ScanSnap iX1600 can scan up to **30 pages per minute**, which translates to a lot of cards in a short time.
--   **Automatic Document Feeder**: This feature allows you to load up to **50 cards** at once, automatically scanning and feeding them through the scanner.
--   **High Resolution**: It delivers high-resolution scans, making your card images sharp and clear.
--   **User-Friendly**: The touch screen interface makes it easy to control the scanning process.
--   **Reliable and Durable**: After scanning thousands of cards, the iX1600 has proven to be reliable and durable.
-
-**Price**: Approximately **$400 (as of March 2025)**\
-**Why I Recommend It**: It's the perfect balance of speed, quality, and ease of use, and it's built to handle heavy workloads.
-
-[Check out the Fujitsu ScanSnap iX1600 on Amazon!](https://amzn.to/3FkHCPL)
-
-* * * * *
-
-### 2\. **Best Budget Option: Plustek PS188 Document Scanner**
-
-If you're just getting started and need a **budget-friendly** option, the **Plustek PS188** is a fantastic choice. While it doesn't have the high-end features of more expensive scanners, it's still a reliable workhorse for smaller operations or hobby resellers.
-
--   **Compact Design**: The DS-640 is small and portable, making it ideal for resellers with limited space.
--   **Fast Scanning**: It can scan up to **30 pages per minute**, which is great for resellers on a tight budget.
--   **Auto Feed**: It supports an **automatic document feeder** for batch scanning, though the capacity is lower than premium models (up to 40 cards).
-
-**Price**: Approximately **$219 (as of March 2025)**\
-**Why I Recommend It**: If you're just starting out, this is a cost-effective scanner that still does the job without breaking the bank.
-
-[Check out the Plustek PS188 on Amazon!](https://amzn.to/3DIl5Mc)
-
-* * * * *
-
-### 3\. **Best Value for Money: Epson WorkForce ES-500W Wireless Duplex Document Scanner**
-
-For those who want a middle ground between price and performance, the **Epson WorkForce ES-500W** is a great pick. It's perfect for medium-sized resellers and offers excellent value for its price.
-
--   **Fast and Efficient**: The ES-500W scans up to **35 pages per minute**.
--   **Wireless Connectivity**: This model offers wireless scanning, making it easy to integrate with your eBay workflow.
--   **High-Quality Images**: With **600 dpi resolution**, it delivers high-quality scans, ensuring your cards look great in listings.
--   **Automatic Document Feeder**: It can handle up to **50 cards at once**, making it efficient for bulk scanning.
-
-**Price**: Approximately **$320 (as of March 2025)**\
-**Why I Recommend It**: The ES-500W offers the best balance of affordability and performance, making it ideal for those scaling their eBay businesses.
-
-[Check out the Epson WorkForce ES-500W on Amazon!](https://amzn.to/3DIlqys)
-
-* * * * *
-
-### 4\. **My Personal Scanner Choice: Epson WorkForce ES-400 Document Scanner**
-
-For the past three years, I've relied on the **Epson WorkForce ES-400** as my primary card scanner in my Pokémon card reselling business, and it’s been an essential tool for streamlining my eBay operations. It strikes the perfect balance between price and performance, offering exceptional value without compromising on speed or quality.
-
--   **Fast and Efficient**: The ES-400 scans up to **35 pages per minute**.
--   **Reliable Automatic Document Feeder**: With the automatic document feeder holding up to 50 cards at once, it makes bulk scanning incredibly efficient. I simply load the cards, hit scan, and let the machine do the work. This feature has saved me countless hours compared to manually scanning one card at a time.
--   **High-Quality Scans**: With **600 dpi resolution**,  the ES-400 delivers clear, crisp scans of each card. This ensures that the images of my Pokémon cards are high-quality and accurately represent their condition—key to gaining buyer trust on eBay.
--   **Automatic Document Feeder**: It can handle up to **50 cards at once**, making it efficient for bulk scanning.
-
-**Price**: Approximately **$280 (as of March 2025)**\
-**Why I Recommend It**: The ES-400 offers the best balance of affordability and performance, making it ideal for those scaling their eBay businesses.
-
-[Check out the Epson WorkForce ES-400 on Amazon!](https://amzn.to/41HChJN)
-
-* * * * *
-
-### 5\. **Best Premium Option: Fujitsu fi-8170 Document Scanner**
-
-If you're running a high-volume eBay store and need a scanner that can keep up with heavy demand, the **Fujitsu fi-8170** is the best premium option on the market.
-
--   **Super Fast**: The Fujitsu fi-8170 can scan up to **70 pages per minute**, ensuring you can process large batches of cards quickly.
--   **Space-Saving Design**: Its ultra-slim design means it doesn't take up too much space on your desk.
--   **High Resolution**: With a **600 dpi resolution**, it produces high-quality, detailed scans.
--   **Automatic Document Feeder**: It supports up to **100 cards at once**, ideal for fast batch scanning.
-
-**Price**: Approximately **$750 (as of March 2025)**\
-**Why I Recommend It**: For high-volume sellers who need a reliable, fast, and compact scanner, this one ticks all the boxes.
-
-[Check out the Fujitsu fi-8170 on Amazon!](https://amzn.to/4lJ7hkK)
-
-* * * * *
+I have since updated this to showcase my Amazon storefront, which includes my top recommended card scanners. Check out my current top scanner picks here: **[Amazon Storefront](https://www.amazon.com/shop/gemtcg)**
 
 Conclusion
 ----------
 
-If you're serious about reselling Pokémon cards on eBay, an **auto-feed card scanner** is an indispensable tool that can help you streamline your operations and save valuable time. Whether you choose the **Fujitsu ScanSnap iX1600** for its high-end features or the **Plustek PS188** for its affordability, each of these scanners will help you list more cards in less time and with fewer errors.
+If you're serious about reselling Pokémon cards on eBay, an **auto-feed card scanner** is an indispensable tool that can help you streamline your operations and save valuable time. Whether you choose the **Epson DC-870** for its high-end features or the **Ricoh-8170**, each of these scanners will help you list more cards in less time and with fewer errors.
 
 Investing in the right scanner is a smart business move, so consider your needs and budget carefully. Your future self (and your business) will thank you!
 

@@ -50,6 +50,10 @@ export const headerData = {
       text: 'Tools',
       links: [
         {
+          text: 'TCG Automate',
+          href: getPermalink('/tcg-automate'),
+        },
+        {
           text: 'eBay Fee Calculator',
           href: getPermalink('/ebay-fee-calculator'),
         },
@@ -117,8 +121,9 @@ export const footerData = {
     {
       title: 'Tools',
       links: [
+        { text: 'TCG Automate', href: '/tcg-automate' },
         { text: 'eBay Fee Calculator', href: '/ebay-fee-calculator' },
-        { text: 'TCG Watch', href: '/tcg-watch' },
+        { text: 'TCG Spike', href: '/tcg-spike' },
       ],
     },
   ],

@@ -1,0 +1,84 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'TCG Automate — List your TCG cards faster on eBay, Shopify, and Whatnot',
+  description:
+    'Automate pricing, bulk listing, inventory sync, and real-time price updates from TCGplayer.',
+};
+---
+
+<Layout metadata={metadata}>
+  <Hero
+    image={`
+      <img
+        src="https://yomhqpycc8.ufs.sh/f/eZj0HwGNP4wk22v5aAVLTYDNrEX5svqtAf9OmHSPiGFjzQWh"
+        alt="TCG Automate Dashboard"
+        width="auto"
+        height="auto"
+        style="
+          object-fit: cover;
+          border-radius: 8px;
+          border: 2px solid #6366f1;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        "
+      />
+    `}
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Try It Out',
+        href: 'https://tcgautomate.com/dashboard',
+        target: '_blank',
+      },
+    ]}
+  >
+    <Fragment slot="title">TCG Automate</Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        Built by GemTCG. List up to 1,000 cards per hour on eBay/Shopify/Whatnot with TCG Automate.
+        Works with all major TCG's and Sports cards.
+      </span>
+    </Fragment>
+  </Hero>
+
+  <Features2
+  title="Why TCG Automate?"
+  items={[
+    {
+      title: 'Automated Market Price Matcher',
+      description:
+        'Instantly matches live market prices so every scan gets an up-to-date list price.',
+    },
+    {
+      title: '90%+ Scanner Accuracy',
+      description:
+        'When paired with a scanner, card detection and matching hits 90%+ for fast, confident listing.',
+    },
+    {
+      title: 'List 1,000 Cards per Hour',
+      description:
+        'Scan → match → approve. Batch actions and keyboard-light flows for max efficiency.',
+    },
+    {
+      title: 'Combine Duplicate eBay Listings',
+      description:
+        'Clean up inventory with a single click by merging duplicate eBay listings.',
+    },
+    {
+      title: 'PSA Cert-Only Listing',
+      description:
+        'Enter a PSA cert number and TCG Automate will auto-fill the listing details',
+    },
+    {
+      title: 'List from Roca/CardBot Scanner',
+      description:
+        'Send scans directly from your Roca/CardBot into the queue with the market matcher applied.',
+    },
+  ]}
+/>
+
+</Layout>

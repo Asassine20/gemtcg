@@ -1,0 +1,27 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Waitlist',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText tagline="Waitlist" title="Join the Early Access List" />
+
+  <CallToAction
+  >
+    <Fragment slot="title">
+      Early Access Waitlist<br class="block sm:hidden" />
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      I’m building a new app to help buyers and sellers buy and sell their collections. I haven’t chosen a name yet so feel free to share any cool name ideas and what features you’d like to see in the app inside the <strong>Additional Comments</strong> field below.<br class="hidden md:inline" />
+    </Fragment>
+  </CallToAction>
+</Layout>

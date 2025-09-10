@@ -43,6 +43,10 @@ export const headerData = {
       href: '/blog',
     },
     {
+      text: 'Waitlist',
+      href: '/waitlist',
+    },
+    {
       text: 'Supplies',
       href: '/affiliate/products',
     },

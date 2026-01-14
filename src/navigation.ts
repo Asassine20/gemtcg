@@ -30,7 +30,7 @@ export const headerData = {
       links: [
         {
           text: 'eBay',
-          href: getPermalink('https://ebay.us/Nt2NFw'),
+          href: getPermalink('https://www.ebay.com/str/kickznkardzstore'),
         },
         {
           text: 'TCGPlayer',
@@ -90,7 +90,7 @@ export const footerData = {
     {
       title: 'Stores',
       links: [
-        { text: 'eBay', href: 'https://ebay.us/Nt2NFw' },
+        { text: 'eBay', href: 'https://www.ebay.com/str/kickznkardzstore' },
         { text: 'TCGPlayer', href: 'https://partner.tcgplayer.com/9LnkyE' },
       ],
     },
